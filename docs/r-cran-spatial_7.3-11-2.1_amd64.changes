@@ -1,0 +1,47 @@
+Format: 1.8
+Date: Sat, 28 Apr 2018 14:14:14 -0500
+Source: r-cran-spatial
+Binary: r-cran-spatial
+Architecture: source amd64
+Version: 7.3-11-2.1
+Distribution: unstable
+Urgency: medium
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Changed-By: Dirk Eddelbuettel <edd@debian.org>
+Description:
+ r-cran-spatial - GNU R package for spatial statistics
+Changes:
+ r-cran-spatial (7.3-11-2.1) unstable; urgency=medium
+ .
+   * (Inofficial) Rebuild for R 3.5.0
+ .
+   * Manual override for ${R:Depends} while dh-r is looked at
+ .
+   * debian/control: Set Build-Depends: to current R version
+   * debian/control: Set Standards-Version: to current version
+   * debian/control: Add Depends: on ${misc:Depends}
+   * debian/control: Add Vcs-Browser: and Vcs-Git:
+   * debian/compat: Increase level to 9
+   * debian/control: Switch from cdbs to dh-r
+   * debian/rules: Idem
+Checksums-Sha1:
+ a9d46004ff0dbdd3c9e19d95d0bca77fdca91e18 1046 r-cran-spatial_7.3-11-2.1.dsc
+ c849dc91bb4a22185f0a5bed044f8fd3f2ed82e2 44666 r-cran-spatial_7.3-11.orig.tar.gz
+ 94574f4c2da26626dda683b9c51f59b82fc34682 3044 r-cran-spatial_7.3-11-2.1.debian.tar.xz
+ 044ed7cd194854efc4d80e1d970bf8c2c43d8b26 18668 r-cran-spatial-dbgsym_7.3-11-2.1_amd64.deb
+ 7e8431690a25ea5801ca3675b18142eca6b8fd25 8267 r-cran-spatial_7.3-11-2.1_amd64.buildinfo
+ 3c99ab5314f09d34b6088c23fe8f9fc22c61d4fc 127180 r-cran-spatial_7.3-11-2.1_amd64.deb
+Checksums-Sha256:
+ ccb7a6776c687e2cc246bf2e33e0c9f2c623d0011b4ee0f490e0fc2c9850dea9 1046 r-cran-spatial_7.3-11-2.1.dsc
+ 624448d2ac22e1798097d09fc5dc4605908a33f490b8ec971fc6ea318a445c11 44666 r-cran-spatial_7.3-11.orig.tar.gz
+ 1a71a02d895e340db805dfe8975de770e70519f718e90f80e47dd39779a310c7 3044 r-cran-spatial_7.3-11-2.1.debian.tar.xz
+ 271043b6a32a16b61c25564741601421deb37a78ecf8281348d674d4aa51d6a2 18668 r-cran-spatial-dbgsym_7.3-11-2.1_amd64.deb
+ 6a350c1cd2d2f82f799aa750444e4f23c9a108e316e5c42ffb0c445d5ab3bc26 8267 r-cran-spatial_7.3-11-2.1_amd64.buildinfo
+ 5c47c3cde291b0b93637feaf937b0f1849aaf350bd31c2184ca62efecbc7de44 127180 r-cran-spatial_7.3-11-2.1_amd64.deb
+Files:
+ a5c32517ce470a4903c1afd88d7f702d 1046 gnu-r optional r-cran-spatial_7.3-11-2.1.dsc
+ 0a2170d5b153a131e23d480d486ead00 44666 gnu-r optional r-cran-spatial_7.3-11.orig.tar.gz
+ d1270a3f4014760681759a66664587a4 3044 gnu-r optional r-cran-spatial_7.3-11-2.1.debian.tar.xz
+ 161014ae1ea04cd18b4b67fc30d5dfd3 18668 debug optional r-cran-spatial-dbgsym_7.3-11-2.1_amd64.deb
+ b7ad465b2e0e7ea1b8f7aec85c394182 8267 gnu-r optional r-cran-spatial_7.3-11-2.1_amd64.buildinfo
+ 05e529972e5964d317c0d01f1dbc3797 127180 gnu-r optional r-cran-spatial_7.3-11-2.1_amd64.deb

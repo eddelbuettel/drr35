@@ -1,0 +1,93 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Mon, 23 Apr 2018 06:10:13 -0500
+Source: r-base
+Binary: r-base r-base-core r-base-dev r-mathlib r-base-html r-doc-pdf r-doc-html r-doc-info r-recommended r-base-core-dbg
+Architecture: source amd64 all
+Version: 3.5.0-1
+Distribution: experimental
+Urgency: medium
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Changed-By: Dirk Eddelbuettel <edd@debian.org>
+Description:
+ r-base     - GNU R statistical computation and graphics system
+ r-base-core - GNU R core of statistical computation and graphics system
+ r-base-core-dbg - GNU R debug symbols for statistical comp. language and environmen
+ r-base-dev - GNU R installation of auxiliary GNU R packages
+ r-base-html - GNU R html docs for statistical computing system functions
+ r-doc-html - GNU R html manuals for statistical computing system
+ r-doc-info - GNU R info manuals statistical computing system
+ r-doc-pdf  - GNU R pdf manuals for statistical computing system
+ r-mathlib  - GNU R standalone mathematics library
+ r-recommended - GNU R collection of recommended packages [metapackage]
+Changes:
+ r-base (3.5.0-1) experimental; urgency=medium
+ .
+   * New upstream version released this morning
+ .
+   * Still released into experimental as we need to coordinate a transition
+     for r-api-3.5
+Checksums-Sha1:
+ f9dfb8218dfc5ef975e6af470a753514aa3aa13c 2952 r-base_3.5.0-1.dsc
+ 69f9ff4ecc78057095aedc145eb33f66f48b27ed 30675040 r-base_3.5.0.orig.tar.gz
+ 67418d3c868d6607923730bcbbcc1d9338cd7958 87668 r-base_3.5.0-1.debian.tar.xz
+ 209d7d9ef291156e73f34152ad756bccf4fc6f2f 5282616 r-base-core-dbg_3.5.0-1_amd64.deb
+ d86aa38911c465e0d5aaa74ab2f70a1d5c4c7071 23896324 r-base-core_3.5.0-1_amd64.deb
+ 95ce1127638f9ff6422eee589e45475afe0cc520 4480 r-base-dev_3.5.0-1_all.deb
+ ced3011ffa668bc27290bf0cc87eb1d5d0a39d1a 87412 r-base-html_3.5.0-1_all.deb
+ 30f02b29892b6584bf0b5bd7c33c2a5bdefdb9a9 41680 r-base_3.5.0-1_all.deb
+ 6e0b87bc31d595dde0010591af26b82c1b187b0a 17565 r-base_3.5.0-1_amd64.buildinfo
+ 027bc44353b5af60a966b4b5b422514021f89ff9 561084 r-doc-html_3.5.0-1_all.deb
+ 5255af1aa75002b48ead8ca1c8ba672a13b0269d 623400 r-doc-info_3.5.0-1_all.deb
+ 4678175c93f00420825640e772df078a70a52523 9362500 r-doc-pdf_3.5.0-1_all.deb
+ 74621d26d1e1f7921e563ffec21b0b2fbf2ca006 1833112 r-mathlib_3.5.0-1_amd64.deb
+ 763ff53bc4716df86415af4aa4d63762f7b73037 2768 r-recommended_3.5.0-1_all.deb
+Checksums-Sha256:
+ 058ae8b92ddb6caec431ef7627aaeda49438515f5e19700836c8daf5ce6a78bc 2952 r-base_3.5.0-1.dsc
+ fd1725535e21797d3d9fea8963d99be0ba4c3aecadcf081b43e261458b416870 30675040 r-base_3.5.0.orig.tar.gz
+ f1fdf4c2052c6e0490fc1de94b13866cf6d689bfca02db76a0652d5f4df0ec78 87668 r-base_3.5.0-1.debian.tar.xz
+ 8ac20af88cfb86e122dd70f0d8ceab64ce828ac97113c60c1256eaf6da8194a2 5282616 r-base-core-dbg_3.5.0-1_amd64.deb
+ 3def584dd87a797fa9aa7ad5016c5521284f6b917199a86c6118bde3e403a516 23896324 r-base-core_3.5.0-1_amd64.deb
+ f5bcbbf6f2974b216b614f617bde679c35843b5e0514c578e6638d4bc8645ea0 4480 r-base-dev_3.5.0-1_all.deb
+ 9ec28e00824c0c8eb10a5520d76b80fcb098f40219b1dba8bad275cc4dd83c8c 87412 r-base-html_3.5.0-1_all.deb
+ 522801d6fe5c69e290688c7da53606ebc355702e27c954d7d5fc9a1075a4048b 41680 r-base_3.5.0-1_all.deb
+ 66134c7743053803dfd96a274630f6f90b06d902d2d9b90d5c67d6238a130729 17565 r-base_3.5.0-1_amd64.buildinfo
+ 5f1e0d5c2551236a9f9449e797c9515b94e1b202ba1fcc4be06d3d0ddaaf659d 561084 r-doc-html_3.5.0-1_all.deb
+ 67003ec6e3e723204eee985482dbddd9f428d723e812d94b6ee99d293fad1edd 623400 r-doc-info_3.5.0-1_all.deb
+ eabb1fec9781e5d64da1be9ea41d486f3e7c43e830f3628e3041cbdb7ba96a7c 9362500 r-doc-pdf_3.5.0-1_all.deb
+ 028b7e33e8b0d7c59daf3d2fee4f78006c11a2397446e9a8e4ae8d5bdf74b9b2 1833112 r-mathlib_3.5.0-1_amd64.deb
+ dc224ff91b1400cc580696e226866f5055ffd888933bee644cdd91e3b33c43e7 2768 r-recommended_3.5.0-1_all.deb
+Files:
+ 7676b19b9579bb82efb977cd2e5232e9 2952 gnu-r optional r-base_3.5.0-1.dsc
+ c0455dbfa76ca807e4dfa93d49dcc817 30675040 gnu-r optional r-base_3.5.0.orig.tar.gz
+ feb9cc245341a09e11ea1efe37851eda 87668 gnu-r optional r-base_3.5.0-1.debian.tar.xz
+ 88297b35c3570493058d7188359be867 5282616 debug optional r-base-core-dbg_3.5.0-1_amd64.deb
+ af300073bb4bc591b6228da7a8309688 23896324 gnu-r optional r-base-core_3.5.0-1_amd64.deb
+ 6688a5a674a9a07ee32d4788497e6d54 4480 gnu-r optional r-base-dev_3.5.0-1_all.deb
+ cf0a0dbef203a85a1986e3d6bc9da554 87412 doc optional r-base-html_3.5.0-1_all.deb
+ d0992f1001396b0c056f41a02bd31610 41680 gnu-r optional r-base_3.5.0-1_all.deb
+ 7953ccfc9925c07c71a008f2fd47fb97 17565 gnu-r optional r-base_3.5.0-1_amd64.buildinfo
+ f36b8c89e2b5e45aa509dd8f4637b3e9 561084 doc optional r-doc-html_3.5.0-1_all.deb
+ cbf5dff00556cf19330457242711c12b 623400 doc optional r-doc-info_3.5.0-1_all.deb
+ 35edaf86cb2f61f0968e5e087d303eb1 9362500 doc optional r-doc-pdf_3.5.0-1_all.deb
+ 8fc7acf21d2d28c94f7699d749d51904 1833112 gnu-r optional r-mathlib_3.5.0-1_amd64.deb
+ 47ec4a810631b98b31c6bf791ee78033 2768 gnu-r optional r-recommended_3.5.0-1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIVAwUBWt3BS6FIn+KrmaIaAQhGLBAAk13f+o7WOgY5Qax30JUqcTgAuD0Uinyb
+SrhvKUB2XaFF2l1xgX+K9xE/jMMFpPt7RG1K9UTHiPz2HgQePfGwp8HqpakP8m5A
+QYWqkYdSprGRow2jSUSMv8HQ03ywg4uk8KFRvMWKKgLjRE5zcPumTeF0/CMAantt
+hvcsidVyKKHpnTLpVrqcNd21Ut1HlM6FdoNrk16a1Kn4M6hpQAw+xvwhTEnfwsqa
+M80Ef9nl80xUTCw5WAf6ZZE02RRoyg8MJa4Yei1j33Q9anTbgHvMF6czaJWYqtsC
+k0psCj8zy3Xd4KSrHwqKEKl2Ai5bkSS6dt6Ju+NW4h1Ljk3W0yi4MUc0v6HGg3ff
+npcVYktpjocg5p7KKTQ/piHipNOpqnSoc57CCC79ocCjMoEhjNLVdzWSBClU1bS3
+WJsfV2HnDG8WNirkFPI1gh+sadWMZd0MF89P82j61SwlzGAM/1wrSQMbvAi1MI49
+7/uXuZ1mW1+FJmRg16Bhw8Jc35qwf8UQZUaYWQ0c+UNj0pTxVWAOZe3k7GJq5U1s
+cDCQBjLmKOVEuVlivPNfRRBnqID5zLQkG7zxfb/Cq4nI4n8V2v7PAQXO54APBlFe
+y2BgrlU3mBTogrF4eNj7pyZswVYYejw+e06J2kcYc4pFwHmnBUGrWc8vfuSaPEzK
+fr+xQ+Wc8QE=
+=jlEd
+-----END PGP SIGNATURE-----

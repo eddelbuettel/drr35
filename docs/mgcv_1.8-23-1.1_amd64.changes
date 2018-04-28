@@ -1,0 +1,46 @@
+Format: 1.8
+Date: Sat, 28 Apr 2018 15:08:02 -0500
+Source: mgcv
+Binary: r-cran-mgcv
+Architecture: source amd64
+Version: 1.8-23-1.1
+Distribution: unstable
+Urgency: medium
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Changed-By: Dirk Eddelbuettel <edd@debian.org>
+Description:
+ r-cran-mgcv - GNU R package for multiple parameter smoothing estimation
+Changes:
+ mgcv (1.8-23-1.1) unstable; urgency=medium
+ .
+   * (Inofficial) Rebuild for R 3.5.0
+ .
+   * Manual override for ${R:Depends} while dh-r is looked at
+ .
+   * debian/control: Set Build-Depends: to current R version
+   * debian/control: Set Standards-Version: to current version
+   * debian/control: Add Vcs-Browser: and Vcs-Git:
+   * debian/compat: Increase level to 9
+   * debian/control: Switch from cdbs to dh-r
+   * debian/rules: Idem
+Checksums-Sha1:
+ d6ecd0c30af5a823bfd9dac4cb3893a30d62f95d 992 mgcv_1.8-23-1.1.dsc
+ 202ebbc70dec66dea45c7855796896131a591cc9 866072 mgcv_1.8-23.orig.tar.gz
+ e724e9bea96f4611bd5563a3c9417453f77602bf 5112 mgcv_1.8-23-1.1.debian.tar.xz
+ 62c0e03f5b768f3d4327104e0570bc19dfdbdeac 8299 mgcv_1.8-23-1.1_amd64.buildinfo
+ 2d593f29236d4aea15919b3889d372a9934cca11 201048 r-cran-mgcv-dbgsym_1.8-23-1.1_amd64.deb
+ 4e2c05febc9d0b9c1304e755a1b1a75940984a4b 2545984 r-cran-mgcv_1.8-23-1.1_amd64.deb
+Checksums-Sha256:
+ 27618a3e0945e125b8e59dc67fb31a5ba5e8e65f3767f4868c88cc23b57b380a 992 mgcv_1.8-23-1.1.dsc
+ 7771ac5581542904d569388e2e498d3e3b8b65f7a81737acbb45d8ef838359d3 866072 mgcv_1.8-23.orig.tar.gz
+ e4a4b6e386587483ef4e2d54b40acf9e5e8f22637919bb2381912c170a049022 5112 mgcv_1.8-23-1.1.debian.tar.xz
+ 7e1116eb8b40578e7be2cc466b2680d46af1ec0a671999cb3b65644429b9b16b 8299 mgcv_1.8-23-1.1_amd64.buildinfo
+ 0629f8b03ed25a959fedeb5d9d50728adc20b068062a87eafa7a9ad6d604437a 201048 r-cran-mgcv-dbgsym_1.8-23-1.1_amd64.deb
+ 4a7eb1e99ba39dee10b2192f9c17811d215ce732d1cfcbd26beb128abf4760be 2545984 r-cran-mgcv_1.8-23-1.1_amd64.deb
+Files:
+ 971b039b3f16cb8f1372c5374eee987b 992 gnu-r optional mgcv_1.8-23-1.1.dsc
+ d379c60c73c785a64b6e033e702b412a 866072 gnu-r optional mgcv_1.8-23.orig.tar.gz
+ 5e40104f4f66786ea69862a86925c422 5112 gnu-r optional mgcv_1.8-23-1.1.debian.tar.xz
+ 2bcdf00c358b1888bbcd1bc241eee599 8299 gnu-r optional mgcv_1.8-23-1.1_amd64.buildinfo
+ 9629e117f6ddc4a5f356d11caafa21d7 201048 debug optional r-cran-mgcv-dbgsym_1.8-23-1.1_amd64.deb
+ 81b731cdc22d3088987eeb22d94709c3 2545984 gnu-r optional r-cran-mgcv_1.8-23-1.1_amd64.deb

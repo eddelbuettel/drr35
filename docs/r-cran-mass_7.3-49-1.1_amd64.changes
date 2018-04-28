@@ -1,0 +1,45 @@
+Format: 1.8
+Date: Sat, 28 Apr 2018 14:03:58 -0500
+Source: r-cran-mass
+Binary: r-cran-mass
+Architecture: source amd64
+Version: 7.3-49-1.1
+Distribution: unstable
+Urgency: medium
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Changed-By: Dirk Eddelbuettel <edd@debian.org>
+Description:
+ r-cran-mass - GNU R package of Venables and Ripley's MASS
+Changes:
+ r-cran-mass (7.3-49-1.1) unstable; urgency=medium
+ .
+   * (Inofficial) Rebuild for R 3.5.0
+ .
+   * Manual override for ${R:Depends} while dh-r is looked at
+ .
+   * debian/control: Set Build-Depends: to current R version
+   * debian/control: Set Standards-Version: to current version
+   * debian/control: Add Vcs-Browser: and Vcs-Git:
+   * debian/control: Switch from cdbs to dh-r
+   * debian/rules: Idem
+Checksums-Sha1:
+ b4321eb59b560880707ff2712ec10256832f3047 1013 r-cran-mass_7.3-49-1.1.dsc
+ 0447cced17ff2b0250641a369e0b0a6c9ff66143 487772 r-cran-mass_7.3-49.orig.tar.gz
+ 46433420587f90ecebf7645bfa84f01d78b2ab2f 6112 r-cran-mass_7.3-49-1.1.debian.tar.xz
+ 83d92d602c0c21fdfeafc9e07c8f3f3cd1ff099c 16888 r-cran-mass-dbgsym_7.3-49-1.1_amd64.deb
+ 82b4cda266b9bbfd357884c0d4e8db59e365ea68 8234 r-cran-mass_7.3-49-1.1_amd64.buildinfo
+ 1c1bd9b9109929f6551161c48dde5495429b7d19 1100696 r-cran-mass_7.3-49-1.1_amd64.deb
+Checksums-Sha256:
+ 19557e9785f9a1ab16f146982fc0eb203bf3fd2d3a24c9967db40b110531804b 1013 r-cran-mass_7.3-49-1.1.dsc
+ 1a33f77d5571e97daae22d1b764f3696f088bd2b18a9c709e21b7c7283b44bfa 487772 r-cran-mass_7.3-49.orig.tar.gz
+ 89fb13fb859b1022a7cb5f8a302b3314d4738a04233cf166a74b0b4741837c63 6112 r-cran-mass_7.3-49-1.1.debian.tar.xz
+ 67200c311b2b9ad5865cfe0dc3a253628ff53d479bf705e49c5d3d7c0eb46d23 16888 r-cran-mass-dbgsym_7.3-49-1.1_amd64.deb
+ 785ec57fdb8554a2c545db0ab623da8800889747cae9958cb08c9f617940a3c4 8234 r-cran-mass_7.3-49-1.1_amd64.buildinfo
+ 3bc92c060150cecc98c437847f05cf8221924f688b41a241ad0bd71280f83829 1100696 r-cran-mass_7.3-49-1.1_amd64.deb
+Files:
+ a17d4de8921a402a6c1de49237dee5f4 1013 gnu-r optional r-cran-mass_7.3-49-1.1.dsc
+ dc48acc0809aa737378f72605806787f 487772 gnu-r optional r-cran-mass_7.3-49.orig.tar.gz
+ 019336fa3e84ff1c836b7469050c8c05 6112 gnu-r optional r-cran-mass_7.3-49-1.1.debian.tar.xz
+ a1ad69b16019e000c93747e37532da96 16888 debug optional r-cran-mass-dbgsym_7.3-49-1.1_amd64.deb
+ a99ef98fb77ef5d65e3ddc5da0bc76ef 8234 gnu-r optional r-cran-mass_7.3-49-1.1_amd64.buildinfo
+ 22f82d4b67f66ab909665cdef8506193 1100696 gnu-r optional r-cran-mass_7.3-49-1.1_amd64.deb

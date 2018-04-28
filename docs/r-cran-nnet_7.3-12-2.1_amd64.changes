@@ -1,0 +1,47 @@
+Format: 1.8
+Date: Sat, 28 Apr 2018 14:10:57 -0500
+Source: r-cran-nnet
+Binary: r-cran-nnet
+Architecture: source amd64
+Version: 7.3-12-2.1
+Distribution: unstable
+Urgency: medium
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Changed-By: Dirk Eddelbuettel <edd@debian.org>
+Description:
+ r-cran-nnet - GNU R package for feed-forward neural networks
+Changes:
+ r-cran-nnet (7.3-12-2.1) unstable; urgency=medium
+ .
+   * (Inofficial) Rebuild for R 3.5.0
+ .
+   * Manual override for ${R:Depends} while dh-r is looked at
+ .
+   * debian/control: Set Build-Depends: to current R version
+   * debian/control: Set Standards-Version: to current version
+   * debian/control: Add Depends: on ${misc:Depends}
+   * debian/control: Add Vcs-Browser: and Vcs-Git:
+   * debian/compat: Increase level to 9
+   * debian/control: Switch from cdbs to dh-r
+   * debian/rules: Idem
+Checksums-Sha1:
+ bbd2a4cfcd39e931aed9911213be6c3b4b03761a 1010 r-cran-nnet_7.3-12-2.1.dsc
+ fdbd8ae630e15abf92ddc4e92d39112f1f61a3a4 28521 r-cran-nnet_7.3-12.orig.tar.gz
+ 99218c38d6cadae791ec32b734086e3155b20bb6 3100 r-cran-nnet_7.3-12-2.1.debian.tar.xz
+ 148260f9ce248ea48374a387a8b13659c34a6891 12792 r-cran-nnet-dbgsym_7.3-12-2.1_amd64.deb
+ d72918488cd477d7a80afccfbd18eb3e0a47e67d 8231 r-cran-nnet_7.3-12-2.1_amd64.buildinfo
+ b1099185825a538d78f28e0213d83f99944454f7 110496 r-cran-nnet_7.3-12-2.1_amd64.deb
+Checksums-Sha256:
+ 5116f37586c6bf10c52c55e39a879da10a8e06e9a4a17aa6a95df1f531ae47d2 1010 r-cran-nnet_7.3-12-2.1.dsc
+ 2723523e8581cc0e2215435ac773033577a16087a3f41d111757dd96b8c5559d 28521 r-cran-nnet_7.3-12.orig.tar.gz
+ aafb667dc58bb5436316b9c467973f406484de52bd6473a764196cea6887cb8d 3100 r-cran-nnet_7.3-12-2.1.debian.tar.xz
+ 125b08edd89625ad1b4de17e544ad2b1d347f4409f744138268c2a0aa78b0865 12792 r-cran-nnet-dbgsym_7.3-12-2.1_amd64.deb
+ 52ec97e088cb996284028846313c1427b448d2b0c4aa434d858f1acd9eb7bc9e 8231 r-cran-nnet_7.3-12-2.1_amd64.buildinfo
+ 30736f6ea2a65b2b0bfcf1ddfcc6b55298dc1f9ff2c0988d35edacbd18d6134b 110496 r-cran-nnet_7.3-12-2.1_amd64.deb
+Files:
+ 747fdc46e766fa409ba4b92f40d80fb7 1010 gnu-r optional r-cran-nnet_7.3-12-2.1.dsc
+ dc7c6f0d0de53d8fc72b44554400a74e 28521 gnu-r optional r-cran-nnet_7.3-12.orig.tar.gz
+ 981600043b0f6a36cd1caf4485286589 3100 gnu-r optional r-cran-nnet_7.3-12-2.1.debian.tar.xz
+ 005843012acab536287d36c525c8b313 12792 debug optional r-cran-nnet-dbgsym_7.3-12-2.1_amd64.deb
+ 5559bb1bf9d9dbae5306ce2db06d9c37 8231 gnu-r optional r-cran-nnet_7.3-12-2.1_amd64.buildinfo
+ d010c025c2072eb965e515a785332dfc 110496 gnu-r optional r-cran-nnet_7.3-12-2.1_amd64.deb

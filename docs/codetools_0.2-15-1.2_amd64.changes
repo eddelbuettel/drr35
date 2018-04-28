@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Sat, 28 Apr 2018 14:20:22 -0500
+Source: codetools
+Binary: r-cran-codetools
+Architecture: source all
+Version: 0.2-15-1.2
+Distribution: unstable
+Urgency: medium
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Changed-By: Dirk Eddelbuettel <edd@debian.org>
+Description:
+ r-cran-codetools - GNU R package providing code analysis tools
+Changes:
+ codetools (0.2-15-1.2) unstable; urgency=medium
+ .
+   * (Inofficial) Rebuild for R 3.5.0
+ .
+   * Manual override for ${R:Depends} while dh-r is looked at
+ .
+   * debian/control: Set Build-Depends: to current R version
+   * debian/control: Set Standards-Version: to current version
+   * debian/control: Add Vcs-Browser: and Vcs-Git:
+   * debian/compat: Increase level to 9
+   * debian/control: Switch from cdbs to dh-r
+   * debian/rules: Idem
+Checksums-Sha1:
+ 11577c6a9b4f287d6d6748afef8ccd03bb7432f7 1021 codetools_0.2-15-1.2.dsc
+ a6a384b17adae4f8c92ddeeab4f1393a0ff732c1 12930 codetools_0.2-15.orig.tar.gz
+ aa655a54bb7d839ad9f0f61d9d7912be626ac26f 2752 codetools_0.2-15-1.2.debian.tar.xz
+ 2bbca83ffff78f386d0bc33b535bc29aea09be4d 7950 codetools_0.2-15-1.2_amd64.buildinfo
+ c4618aba581f8a93e133c57155600bc6d52d1a0e 89800 r-cran-codetools_0.2-15-1.2_all.deb
+Checksums-Sha256:
+ 07d5c1818e3003a6204295f8dabd2bafdff25c6f238466932ca47d92c0c595b0 1021 codetools_0.2-15-1.2.dsc
+ 4e0798ed79281a614f8cdd199e25f2c1bd8f35ecec902b03016544bd7795fa40 12930 codetools_0.2-15.orig.tar.gz
+ 8ce6cb9a932da13961b2c73fc66af9fd063ad997ea37094fb6ebbe4e16ecdae0 2752 codetools_0.2-15-1.2.debian.tar.xz
+ 017ce459068be944df4e86afee6dff262c53c03448b2b5f879bb82aecd6d4e38 7950 codetools_0.2-15-1.2_amd64.buildinfo
+ 412242ed5f1c0ed1de2a0b8acb8a4dcb2998d27621b1444e4fe220f702c63805 89800 r-cran-codetools_0.2-15-1.2_all.deb
+Files:
+ 1f1db1ec087226940c5d5dfa15c3220b 1021 gnu-r optional codetools_0.2-15-1.2.dsc
+ 37419cbc3de81984cf6d9b207d4f62d4 12930 gnu-r optional codetools_0.2-15.orig.tar.gz
+ d674dc0c22cce8f77d0e5604d796dd77 2752 gnu-r optional codetools_0.2-15-1.2.debian.tar.xz
+ d2ee4fa047adfc484880fc2b535a7c36 7950 gnu-r optional codetools_0.2-15-1.2_amd64.buildinfo
+ a46a6b9c68c2d97bcd4532b5363ca0d9 89800 gnu-r optional r-cran-codetools_0.2-15-1.2_all.deb

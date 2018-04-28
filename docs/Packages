@@ -1,0 +1,1057 @@
+Package: r-base-core-dbg
+Architecture: amd64
+Version: 3.5.0-1
+Priority: optional
+Section: debug
+Source: r-base
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 5603
+Depends: r-base-core (= 3.5.0-1), r-base-dev (= 3.5.0-1)
+Filename: ./r-base-core-dbg_3.5.0-1_amd64.deb
+Size: 5282616
+MD5sum: 88297b35c3570493058d7188359be867
+SHA1: 209d7d9ef291156e73f34152ad756bccf4fc6f2f
+SHA256: 8ac20af88cfb86e122dd70f0d8ceab64ce828ac97113c60c1256eaf6da8194a2
+SHA512: ceb2a76f462ec349fa24860b0ecb28b055f85a06e0e37d6d79429c6620e48bc623fa720e6b2278d5a77b1a55c26c13659df39944e05cdeb279e52b484af58cbd
+Homepage: http://www.r-project.org/
+Description: GNU R debug symbols for statistical comp. language and environment
+ R is a system for statistical computation and graphics.  It consists
+ of a language plus a run-time environment with graphics, a debugger,
+ access to certain system functions, and the ability to run programs
+ stored in script files.
+ .
+ The design of R has been heavily influenced by two existing languages:
+ Becker, Chambers & Wilks' S and Sussman's Scheme.  Whereas the
+ resulting language is very similar in appearance to S, the underlying
+ implementation and semantics are derived from Scheme.
+ .
+ The core of R is an interpreted computer language which allows
+ branching and looping as well as modular programming using functions.
+ Most of the user-visible functions in R are written in R.  It is
+ possible for the user to interface to procedures written in the
+ C, C++, or FORTRAN languages for efficiency, and many of R's core
+ functions do so.  The R distribution contains functionality for a
+ large number of statistical procedures and underlying applied math
+ computations.  There is also a large set of functions which provide
+ a flexible graphical environment for creating various kinds of data
+ presentations.
+ .
+ Additionally, several thousand extension "packages" are available from
+ CRAN, the Comprehensive R Archive Network, many also as Debian packages,
+ named 'r-cran-<name>'.
+ .
+ This package contains debugging symbol tables for the binaries and dynamic
+ libraries in the r-base-core package.
+Build-Ids: 143a87beccbcad63846b05ec35c8745e466649f0 200a6c46a0252ef3bd2368273076384f74bd4d38 22279d3d6bf8325c0f9a0e63db2da0315015ca77 302f4a3fe00b58bc54383b19627fe9951594af87 31c1003852d698b08206c248b3f6e0c218380a2e 3b59581e2e7c6df374839528203a5548bbda190f 4087cb59b9ae94c84add068a5118647d1a740d0a 4c7c462018dff85ac335e32a45c539e3ef7c3577 56d09e14e86e8931d3274e2ec9de3b24185d6b0f 58280cfc226d30d72bd897f7e456f4eb9b558f09 6d0bd41f870a5d1a266e7e54083b15b4c8fb810c 6d39f1d22fe4fb479f2eef2169ab8def27fb86fd 9667fb9c9e608016433ca23ca0d920579a017567 9850f4b9bd4cb9148d85388b1b188501baae13f7 a491a349f4d0882b718406ec4d5d6398ff55a655 c3834159d4bf0de6d61df9460bfa147cee966577 dc515ed599ffe112bd00e03fabc95e5b64674309 f7cef1f6a6fcd4ebb49c22a3072b5505afa1b6f8 fce18d1ba4dfc372a987128609aa2af9f62a737a
+
+Package: r-base-core
+Architecture: amd64
+Version: 3.5.0-1
+Priority: optional
+Section: gnu-r
+Source: r-base
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 37215
+Provides: r-api-3.5, r-base-latex, r-cran-rcompgen, r-gnome
+Depends: zip, unzip, libpaper-utils, xdg-utils, libblas3 | libblas.so.3, libbz2-1.0, libc6 (>= 2.27), libcairo2 (>= 1.6.0), libcurl3 (>= 7.28.0), libfribidi0 (>= 0.19.2), libgfortran4 (>= 7), libglib2.0-0 (>= 2.12.0), libgomp1 (>= 4.9), libice6 (>= 1:1.0.0), libicu57 (>= 57.1-1~), libjpeg62-turbo (>= 1.3.1), liblapack3 | liblapack.so.3, liblzma5 (>= 5.1.1alpha+20120614), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpcre3, libpng16-16 (>= 1.6.2-1), libquadmath0 (>= 4.6), libreadline7 (>= 6.0), libsm6, libtcl8.6 (>= 8.6.0), libtiff5 (>= 4.0.3), libtk8.6 (>= 8.6.0), libx11-6, libxext6, libxss1, libxt6, zlib1g (>= 1:1.1.4), ucf (>= 3.0), ca-certificates
+Recommends: r-recommended, r-base-dev, r-doc-html
+Suggests: ess, r-doc-info | r-doc-pdf, r-mathlib, r-base-html
+Conflicts: r-base-latex, r-cran-rcompgen, r-gnome
+Replaces: r-base (<= 1.4.1-1), r-base-latex (<= 2.9.2-4), r-cran-rcompgen (<= 0.1-17-1), r-gnome (<= 2.3.1), r-recommended (<< 1.9.0)
+Filename: ./r-base-core_3.5.0-1_amd64.deb
+Size: 23896324
+MD5sum: af300073bb4bc591b6228da7a8309688
+SHA1: d86aa38911c465e0d5aaa74ab2f70a1d5c4c7071
+SHA256: 3def584dd87a797fa9aa7ad5016c5521284f6b917199a86c6118bde3e403a516
+SHA512: 30ad5986d19a3283c699b31dd5ea3a16c9b3a101cd70c92b275c22f81736b431cbf7e7548fa88190f9a97d8e565f771d723afcbc254bbb8440cf6b9ba8388c29
+Homepage: http://www.r-project.org/
+Description: GNU R core of statistical computation and graphics system
+ R is a system for statistical computation and graphics.  It consists
+ of a language plus a run-time environment with graphics, a debugger,
+ access to certain system functions, and the ability to run programs
+ stored in script files.
+ .
+ The design of R has been heavily influenced by two existing languages:
+ Becker, Chambers & Wilks' S and Sussman's Scheme.  Whereas the
+ resulting language is very similar in appearance to S, the underlying
+ implementation and semantics are derived from Scheme.
+ .
+ The core of R is an interpreted computer language which allows
+ branching and looping as well as modular programming using functions.
+ Most of the user-visible functions in R are written in R.  It is
+ possible for the user to interface to procedures written in the
+ C, C++, or FORTRAN languages for efficiency, and many of R's core
+ functions do so.  The R distribution contains functionality for a
+ large number of statistical procedures and underlying applied math
+ computations.  There is also a large set of functions which provide
+ a flexible graphical environment for creating various kinds of data
+ presentations.
+ .
+ Additionally, several thousand extension "packages" are available
+ from CRAN, the Comprehensive R Archive Network, many also as Debian
+ packages, named 'r-cran-<name>'.
+ .
+ This package provides the core GNU R system from which only the optional
+ documentation packages r-base-html, r-doc-html, r-doc-pdf and r-doc-info
+ have been split off to somewhat reduce the size of this package.
+
+Package: r-base-dev
+Architecture: all
+Version: 3.5.0-1
+Priority: optional
+Section: gnu-r
+Source: r-base
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 15
+Depends: r-base-core (>= 3.5.0-1), build-essential, gcc, g++, gfortran, libblas-dev | libatlas-base-dev, liblapack-dev | libatlas-base-dev, libncurses5-dev, libreadline-dev, libjpeg-dev, libpcre3-dev, libpng-dev, zlib1g-dev, libbz2-dev, liblzma-dev, libicu-dev, dh-r, xauth, pkg-config
+Suggests: texlive-base, texlive-latex-base, texlive-generic-recommended, texlive-fonts-recommended, texlive-fonts-extra, texlive-extra-utils, texlive-latex-recommended, texlive-latex-extra, texinfo
+Filename: ./r-base-dev_3.5.0-1_all.deb
+Size: 4480
+MD5sum: 6688a5a674a9a07ee32d4788497e6d54
+SHA1: 95ce1127638f9ff6422eee589e45475afe0cc520
+SHA256: f5bcbbf6f2974b216b614f617bde679c35843b5e0514c578e6638d4bc8645ea0
+SHA512: dadb46aa6cee7046b125b4431afa7ee4d57c348707b76916479e074823c734821f61ea67e4b9e984d663e84ab0e12a82500d2cbecfd08db549195e024740a91f
+Homepage: http://www.r-project.org/
+Description: GNU R installation of auxiliary GNU R packages
+ R is a system for statistical computation and graphics.  It consists
+ of a language plus a run-time environment with graphics, a debugger,
+ access to certain system functions, and the ability to run programs
+ stored in script files.
+ .
+ The design of R has been heavily influenced by two existing languages:
+ Becker, Chambers & Wilks' S and Sussman's Scheme.  Whereas the
+ resulting language is very similar in appearance to S, the underlying
+ implementation and semantics are derived from Scheme.
+ .
+ The core of R is an interpreted computer language which allows
+ branching and looping as well as modular programming using functions.
+ Most of the user-visible functions in R are written in R.  It is
+ possible for the user to interface to procedures written in the
+ C, C++, or FORTRAN languages for efficiency, and many of R's core
+ functions do so.  The R distribution contains functionality for a
+ large number of statistical procedures and underlying applied math
+ computations.  There is also a large set of functions which provide
+ a flexible graphical environment for creating various kinds of data
+ presentations.
+ .
+ Additionally, several thousand extension "packages" are available from
+ CRAN, the Comprehensive R Archive Network, many also as Debian packages,
+ named 'r-cran-<name>'.
+ .
+ This package ensures that other Debian packages needed for installation of
+ some auxiliary R packages are installed.
+
+Package: r-base-html
+Architecture: all
+Version: 3.5.0-1
+Priority: optional
+Section: doc
+Source: r-base
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 551
+Depends: r-base-core
+Suggests: r-doc-html, mozilla | www-browser
+Replaces: r-base (<= 1.4.1-1), r-recommended (<< 1.9.0)
+Filename: ./r-base-html_3.5.0-1_all.deb
+Size: 87412
+MD5sum: cf0a0dbef203a85a1986e3d6bc9da554
+SHA1: ced3011ffa668bc27290bf0cc87eb1d5d0a39d1a
+SHA256: 9ec28e00824c0c8eb10a5520d76b80fcb098f40219b1dba8bad275cc4dd83c8c
+SHA512: 9a27acc730df9e6989c0674fcfa7cdca59a99ff92143c4e02d4f26bdfee79a1bbf8aa5cf9ea2d733cead6769ba1ce80879d55757fcb9615be8882737449df471
+Homepage: http://www.r-project.org/
+Description: GNU R html docs for statistical computing system functions
+ R is a system for statistical computation and graphics.  It consists
+ of a language plus a run-time environment with graphics, a debugger,
+ access to certain system functions, and the ability to run programs
+ stored in script files.
+ .
+ The design of R has been heavily influenced by two existing languages:
+ Becker, Chambers & Wilks' S and Sussman's Scheme.  Whereas the
+ resulting language is very similar in appearance to S, the underlying
+ implementation and semantics are derived from Scheme.
+ .
+ The core of R is an interpreted computer language which allows
+ branching and looping as well as modular programming using functions.
+ Most of the user-visible functions in R are written in R.  It is
+ possible for the user to interface to procedures written in the
+ C, C++, or FORTRAN languages for efficiency, and many of R's core
+ functions do so.  The R distribution contains functionality for a
+ large number of statistical procedures and underlying applied math
+ computations.  There is also a large set of functions which provide
+ a flexible graphical environment for creating various kinds of data
+ presentations.
+ .
+ Additionally, several thousand extension "packages" are available from
+ CRAN, the Comprehensive R Archive Network, many also as Debian packages,
+ named 'r-cran-<name>'.
+ .
+ This package provides html documentation suitable for browsing with a
+ web-browser for the libraries included in the r-base package. It is not
+ a required package as the same documentation is already included for
+ on-line browsing.
+
+Package: r-base
+Architecture: all
+Version: 3.5.0-1
+Priority: optional
+Section: gnu-r
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 60
+Depends: r-base-core (>= 3.5.0-1), r-recommended (= 3.5.0-1)
+Recommends: r-base-html, r-doc-html
+Suggests: ess, r-doc-info | r-doc-pdf
+Filename: ./r-base_3.5.0-1_all.deb
+Size: 41680
+MD5sum: d0992f1001396b0c056f41a02bd31610
+SHA1: 30f02b29892b6584bf0b5bd7c33c2a5bdefdb9a9
+SHA256: 522801d6fe5c69e290688c7da53606ebc355702e27c954d7d5fc9a1075a4048b
+SHA512: 0f593f1589c77d225200099c6b643869c829475c158e9a182615e9abe7fccf18e48ad7774044205bfc3e1fc162b178ce33a865fabc8e435bece4e1c481fa1e13
+Homepage: http://www.r-project.org/
+Description: GNU R statistical computation and graphics system
+ R is a system for statistical computation and graphics.  It consists
+ of a language plus a run-time environment with graphics, a debugger,
+ access to certain system functions, and the ability to run programs
+ stored in script files.
+ .
+ The design of R has been heavily influenced by two existing languages:
+ Becker, Chambers & Wilks' S and Sussman's Scheme.  Whereas the
+ resulting language is very similar in appearance to S, the underlying
+ implementation and semantics are derived from Scheme.
+ .
+ The core of R is an interpreted computer language which allows
+ branching and looping as well as modular programming using functions.
+ Most of the user-visible functions in R are written in R.  It is
+ possible for the user to interface to procedures written in the
+ C, C++, or FORTRAN languages for efficiency, and many of R's core
+ functions do so.  The R distribution contains functionality for a
+ large number of statistical procedures and underlying applied math
+ computations.  There is also a large set of functions which provide
+ a flexible graphical environment for creating various kinds of data
+ presentations.
+ .
+ Additionally, several thousand extension "packages" are available from
+ CRAN, the Comprehensive R Archive Network, many also as Debian packages,
+ named 'r-cran-<name>'.
+ .
+ This package is a metapackage which eases the transition from the
+ pre-1.5.0 package setup with its larger r-base package. Once installed, it
+ can be safely removed and apt-get will automatically upgrade its components
+ during future upgrades.  Providing this package gives a way to users to
+ then only install r-base-core if they so desire.
+
+Package: r-cran-boot
+Architecture: all
+Version: 1.3-20-1.2
+Priority: optional
+Section: gnu-r
+Source: boot
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 746
+Depends: r-base-core (>= 3.5.0-1), r-api-3.5
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-boot_1.3-20-1.2_all.deb
+Size: 618900
+MD5sum: aafd9640fc64ae29393022358ab3a83e
+SHA1: 64a77cc18cfde55229374c010076099244ee30af
+SHA256: cb517bbe042abeca936832c08b06bbc8efee7ac7383e4ab6a531f15fc783940e
+SHA512: 9f5b32a207cdaafe732f41121162205c83d90849277f639d272d67c4ab804bfe9623ba30956f91e7e0e92479916c420f4abb253ffb6f62ccfb78bdc2b2c0a6c8
+Homepage: https://cran.r-project.org/package=boot
+Description: GNU R package for bootstrapping functions from Davison and Hinkley
+ This package provides functions and datasets from the book "Bootstrap Methods
+ and Their Applications" by A. C. Davison and D. V. Hinkley (1997, CUP). It was
+ witten by Angelo Canty, and ported to R by Brian Ripley.
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+ .
+ URL: http://statwww.epfl.ch/davison/BMA/library.html
+
+Package: r-cran-class-dbgsym
+Architecture: amd64
+Version: 7.3-14-2.1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: r-cran-class
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 23
+Depends: r-cran-class (= 7.3-14-2.1)
+Filename: ./r-cran-class-dbgsym_7.3-14-2.1_amd64.deb
+Size: 9496
+MD5sum: caa340a58b27e41da793405e2505f28d
+SHA1: af6e671259656c5be27779f41a53b2167b6b878d
+SHA256: 3628a7bebe1dc2d8f75721d4213e4413a53b5478eb0d3a0a65a8ab678bc39f49
+SHA512: 14ea0c89726d97059af1e4547014ba8f84a886fcdd0439acd70f647956c78bbb17083f076b8428ccc73e9f4f6dda437698bd7825da64eba2d502a5546eca12cb
+Description: debug symbols for r-cran-class
+Build-Ids: 93f66c3b089178cbbed88abcfe7644887e9e6d7c
+
+Package: r-cran-class
+Architecture: amd64
+Version: 7.3-14-2.1
+Priority: optional
+Section: gnu-r
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 149
+Depends: r-base-core (>= 3.5.0-1), r-api-3.5, libc6 (>= 2.4), r-cran-mass
+Replaces: r-cran-vr (<< 7.3-0)
+Filename: ./r-cran-class_7.3-14-2.1_amd64.deb
+Size: 85860
+MD5sum: 51efcf4bdf60bdba7732cb0b04573a83
+SHA1: 6366fbc5fc111d797fc17d57b2bd75f47ec6bf95
+SHA256: b8662447998e1bd31af5609965a69511fab8d87f7022018c9c36311cb6c00031
+SHA512: 9650172fbceaa43cf0fc9a6d741a1ed6ad55e54df01e6893b15fbefb0d3a673159bfd8bae858a335885be93ba2c222c785ecf96d7a8079479f165526e6841a94
+Homepage: https://cran.r-project.org/package=class
+Description: GNU R package for classification
+ The class package provides functions and datasets to support chapter
+ 12 on 'Classification' in the book 'Modern Applied Statistics with S'
+ (4th edition) by W.N. Venables and B.D. Ripley. The following URL
+ provides more details about the book:
+ URL: http://www.stats.ox.ac.uk/pub/MASS4
+
+Package: r-cran-cluster-dbgsym
+Architecture: amd64
+Version: 2.0.7-1-1.1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: cluster
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 72
+Depends: r-cran-cluster (= 2.0.7-1-1.1)
+Filename: ./r-cran-cluster-dbgsym_2.0.7-1-1.1_amd64.deb
+Size: 57412
+MD5sum: 4ed506387d38dd36fb75035411189834
+SHA1: df12c43682b9f8ca50ad868f8bc8bc6b2bc280c7
+SHA256: 2c02e34c19a3cf3eef701840e87608fcee5ae85ddd7569c5bbee7feffdb2bd42
+SHA512: 35dcb83b6384a5add89059a56bb75fd4eef74e04f8e957fd5ee08c35df97e341f459a3cfcc8714260096db99ef8a5e3adf8327e8bdcc52eeb9f68828d22e51aa
+Description: debug symbols for r-cran-cluster
+Build-Ids: 1719cd69f7f524012928b7553daefe4076216454
+
+Package: r-cran-cluster
+Architecture: amd64
+Version: 2.0.7-1-1.1
+Priority: optional
+Section: gnu-r
+Source: cluster
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 682
+Depends: r-base-core (>= 3.5.0-1), r-api-3.5, libc6 (>= 2.14), libgfortran4 (>= 7), libquadmath0 (>= 4.6)
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-cluster_2.0.7-1-1.1_amd64.deb
+Size: 530544
+MD5sum: 1d163bafe0b21d68998f26a58d176f89
+SHA1: 2c011aea73b42caf611bb18135b81d3f10abfe68
+SHA256: 129aea59bc4534aceef2ef5f76d32e2704ded6c9eae5a29422d7d8a540e40ad1
+SHA512: ae97d1e95f8a5057f66bb59505262dffef207cdead81cbff9842a41c5f1d9acffe93960626269a5b815675b986b8e221a8f9485df9c9b16fad9cfc8be154b994
+Homepage: https://cran.r-project.org/package=cluster
+Description: GNU R package for cluster analysis by Rousseeuw et al
+ This package provides functions and datasets for cluster analysis originally
+ written by Peter Rousseeuw, Anja Struyf and Mia Hubert.
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+
+Package: r-cran-codetools
+Architecture: all
+Version: 0.2-15-1.2
+Priority: optional
+Section: gnu-r
+Source: codetools
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 119
+Depends: r-base-core (>= 3.5.0-1), r-api-3.5
+Filename: ./r-cran-codetools_0.2-15-1.2_all.deb
+Size: 89800
+MD5sum: a46a6b9c68c2d97bcd4532b5363ca0d9
+SHA1: c4618aba581f8a93e133c57155600bc6d52d1a0e
+SHA256: 412242ed5f1c0ed1de2a0b8acb8a4dcb2998d27621b1444e4fe220f702c63805
+SHA512: 25cf20349feafefd2bab368b18c878a95bd13aa0150dedcdef08656f32b4debd9a686f9d7ac9af3dc36c857643e9c7af33199d22e63343c1f799d5db73caa9d8
+Homepage: https://cran.r-project.org/package=codetools
+Description: GNU R package providing code analysis tools
+ This package provides functions for code analysis for R.
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+
+Package: r-cran-foreign-dbgsym
+Architecture: amd64
+Version: 0.8.70-1.1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: foreign
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 132
+Depends: r-cran-foreign (= 0.8.70-1.1)
+Filename: ./r-cran-foreign-dbgsym_0.8.70-1.1_amd64.deb
+Size: 112860
+MD5sum: dccb7dfe3d5bf0c55a4fc37a482061d8
+SHA1: f48228409aef48e578374be8a3a2d129571ae629
+SHA256: 6d4150127653418a591d6760c3a920ee5a23ea45575f0aa6c51e13d5f97f577f
+SHA512: 322123a4040040e2600d5dba4bf6c0e855ec526a23646cd548cf39e51bc71a9024a87ffa12b790cc717a6309128134fa7b87eb994be90e05e9e8adeda78f25a9
+Description: debug symbols for r-cran-foreign
+Build-Ids: 189d63633bb57f07f1d1eb2b0f66cb9cae08cb01
+
+Package: r-cran-foreign
+Architecture: amd64
+Version: 0.8.70-1.1
+Priority: optional
+Section: gnu-r
+Source: foreign
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 477
+Depends: r-base-core (>= 3.5.0-1), r-api-3.5, libc6 (>= 2.14)
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-foreign_0.8.70-1.1_amd64.deb
+Size: 243944
+MD5sum: dda04c1ad8b56dbd709e0800e92088a3
+SHA1: 2bd7370475f2760855fb33fdeca24a632bfc863c
+SHA256: 82d399d14fef553dc936905988d35aec8aee3c64c5083f5268396f2f53a3848c
+SHA512: 48ce85f2e5ab739f3642a56e493688a72f5087aacdd9da49dffafec347051e720159d15c44048a2647ab5dc7b57edd2f41db7c990426980e0763be9babea1407
+Homepage: https://cran.r-project.org/package=foreign
+Description: GNU R package to read/write data from other stat. systems
+ This package provides functions for reading and writing data stored by
+ statistical packages such as Minitab, S, SAS, SPSS, Stata, ...
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+
+Package: r-cran-kernsmooth-dbgsym
+Architecture: amd64
+Version: 2.23-15-3.1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: kernsmooth
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 29
+Depends: r-cran-kernsmooth (= 2.23-15-3.1)
+Filename: ./r-cran-kernsmooth-dbgsym_2.23-15-3.1_amd64.deb
+Size: 15032
+MD5sum: be110dd7760a0207990cf9398fa9c314
+SHA1: 6f3c361817fcf49bef827223071471d9d51b5c3e
+SHA256: aa0965f10a8672cea942b2307276794aaf0f267108cd3851f089cdd15254e7f6
+SHA512: 5c953fb27d233fe4598ae2a754a5467c23821e67829e24840367ab3083ed26a4ece0cbb214110bfba7e105687b05d4c8961a3ad0e33934ca2a0dd3ab4ac9d5cd
+Description: debug symbols for r-cran-kernsmooth
+Build-Ids: 0db3fe57f7ea51c69962e9c50ff888587abb8407
+
+Package: r-cran-kernsmooth
+Architecture: amd64
+Version: 2.23-15-3.1
+Priority: optional
+Section: gnu-r
+Source: kernsmooth
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 151
+Depends: r-base-core (>= 3.5.0-1), r-api-3.5, libblas3 | libblas.so.3, libc6 (>= 2.4), libgfortran4 (>= 7), libquadmath0 (>= 4.6), r-cran-mass
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-kernsmooth_2.23-15-3.1_amd64.deb
+Size: 90404
+MD5sum: 2618c6320e44ceaa3167f78f80ba75c6
+SHA1: dba79e00a2611f2b5707c8314c62a0488ffbc91f
+SHA256: 8fd5cda2adadd5adb92e64f2a27c89a1e957e7e9ac1bf329a256e0437d28bbb4
+SHA512: e8b8ad515e10ac25916fd1fb6d70bd8f81e722d6d1b2d12cb7699e1c8e11994bc903c7551d6274a9094e84d062dd891769e1dd40bca6147409fbcced3ebc8af9
+Homepage: https://cran.r-project.org/package=KernSmooth
+Description: GNU R package for kernel smoothing and density estimation
+ This package provides functions for kernel smoothing and density estimation
+ corresponding to M.P. Wand and M.C. Jones, "Kernel Smoothing", 1995.
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+ .
+ URL: http://www.maths.unsw.edu.au/~wand
+
+Package: r-cran-lattice-dbgsym
+Architecture: amd64
+Version: 0.20-35-1.1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: lattice
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 24
+Depends: r-cran-lattice (= 0.20-35-1.1)
+Filename: ./r-cran-lattice-dbgsym_0.20-35-1.1_amd64.deb
+Size: 10640
+MD5sum: 2956cdd6eae29a02280d148cfdba0588
+SHA1: efa9365c8e8b4f0c950861e38e56bc695da6a9db
+SHA256: a5d281badf395b080fb8a7b6a64a0378f09e20c5a2f4f9ed1e477647025624af
+SHA512: def76dfa3cdea2e8a646615abd890ccb2883c327c00e724a37e108e8419b1abbfd23d59111e333ddb4101cc48351f9b31b2c3756994edf334fa7ac49c8b6c71a
+Description: debug symbols for r-cran-lattice
+Build-Ids: 8617c92ab2b1b1f734d14643befeba73bbfd8a04
+
+Package: r-cran-lattice
+Architecture: amd64
+Version: 0.20-35-1.1
+Priority: optional
+Section: gnu-r
+Source: lattice
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 1313
+Depends: r-base-core (>= 3.5.0-1), r-api-3.5, libc6 (>= 2.4)
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-lattice_0.20-35-1.1_amd64.deb
+Size: 1123916
+MD5sum: 072959d6925110d220d6c03d2ea76365
+SHA1: 90d4420797ac7fb4dcec83677c74348c96ca0855
+SHA256: 1667efa79c541040baf9d595a83ac36e3e6280a81e4471879b61c968fab8215a
+SHA512: a7a0a26ecd40da6d02ab8afa38af4a466872a449666ede2fffc43566c790dff0ce40955b09de46e63d45d432a6e6e7fb4c9a82faa61203beb9cd20fa85475516
+Homepage: https://cran.r-project.org/package=lattice
+Description: GNU R package for 'Trellis' graphics
+ This package provides functions for 'Trellis' graphics -- a framework
+ for data visualization developed at the Bell Labs by Rick Becker, Bill
+ Cleveland et al, extending ideas presented in Bill Cleveland's 1993 book
+ 'Visualizing Data'.
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+
+Package: r-cran-mass-dbgsym
+Architecture: amd64
+Version: 7.3-49-1.1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: r-cran-mass
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 31
+Depends: r-cran-mass (= 7.3-49-1.1)
+Filename: ./r-cran-mass-dbgsym_7.3-49-1.1_amd64.deb
+Size: 16888
+MD5sum: a1ad69b16019e000c93747e37532da96
+SHA1: 83d92d602c0c21fdfeafc9e07c8f3f3cd1ff099c
+SHA256: 67200c311b2b9ad5865cfe0dc3a253628ff53d479bf705e49c5d3d7c0eb46d23
+SHA512: 739ccf63d7cffc410a20cdbc763fbeb2c22af8b858903daafffd546dee4e43b10e9f549195af75602fe5c7ca0ffdede51ba07e403328d2bae6d62cfb22898575
+Description: debug symbols for r-cran-mass
+Build-Ids: 43e428d568281fb976df2cb27940f5803cfe6360
+
+Package: r-cran-mass
+Architecture: amd64
+Version: 7.3-49-1.1
+Priority: optional
+Section: gnu-r
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 1369
+Provides: r-cran-vr
+Depends: r-base-core (>= 3.5.0-1), r-api-3.5, libc6 (>= 2.4)
+Conflicts: r-cran-vr
+Replaces: r-cran-vr
+Filename: ./r-cran-mass_7.3-49-1.1_amd64.deb
+Size: 1100696
+MD5sum: 22f82d4b67f66ab909665cdef8506193
+SHA1: 1c1bd9b9109929f6551161c48dde5495429b7d19
+SHA256: 3bc92c060150cecc98c437847f05cf8221924f688b41a241ad0bd71280f83829
+SHA512: de21e501ee7fafee6221fe8adb2afdde1161de8fafb976687e2bd271b25be34da0966375b229fb5da761803f866d41c48051b25884b07fa80070a91ccb3788bb
+Homepage: https://cran.r-project.org/package=MASS
+Description: GNU R package of Venables and Ripley's MASS
+ The MASS package provides functions and datasets to support the book
+ 'Modern Applied Statistics with S' (4th edition) by W.N. Venables and
+ B.D. Ripley. The following URL provides more details about the book:
+ URL: http://www.stats.ox.ac.uk/pub/MASS4
+
+Package: r-cran-matrix-dbgsym
+Architecture: amd64
+Version: 1.2-14-1.1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: rmatrix
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 714
+Depends: r-cran-matrix (= 1.2-14-1.1)
+Filename: ./r-cran-matrix-dbgsym_1.2-14-1.1_amd64.deb
+Size: 681396
+MD5sum: ed652661350e86a8aed8a768a227a5b5
+SHA1: 6f0ee62d0ca1c5aab4a2806bce465f3dc90483f6
+SHA256: 97edc7dec9eff185c7137d4469e97e57e1b31b8837850bfcd1ef8b5bdcd2bcd1
+SHA512: 663e1359ee32d78558da6b6cbc20056d5fb2640ab41eca42c42f6952721d41fd384202edfb9e5b8defeedd7beef32d62b0ffcbaffd84879997961e9d41e506a9
+Description: debug symbols for r-cran-matrix
+Build-Ids: fe95d7124a48e1ac7893e6d9ef7376c5cfe0b537
+
+Package: r-cran-matrix
+Architecture: amd64
+Version: 1.2-14-1.1
+Priority: optional
+Section: gnu-r
+Source: rmatrix
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 5750
+Depends: r-base-core (>= 3.5.0-1), r-api-3.5, libblas3 | libblas.so.3, libc6 (>= 2.14), libgfortran4 (>= 7), liblapack3 | liblapack.so.3, libquadmath0 (>= 4.6), r-cran-lattice (>= 0.12-11.1)
+Filename: ./r-cran-matrix_1.2-14-1.1_amd64.deb
+Size: 3375908
+MD5sum: 7aefc854d3e5936846ffaa58ea1cb0bf
+SHA1: 52ef9c6b70b8cd9981a276a6ea63718fe4e1b004
+SHA256: c12e02f3caf3823e848db450a25ebe83c3b468a1d7c8b48cf3cc2927189a6e52
+SHA512: c5177c865409725208331067e108be3d350fd30fc11357faed1a589515fced134e14de056e87ed33474fb5a59a63a0333bdd8dab63984b34c14e2765b9dd1f6b
+Homepage: https://cran.r-project.org/package=Matrix
+Description: GNU R package of classes for dense and sparse matrices
+ This CRAN package provides S4 classes and methods for numerical
+ linear algebra using dense or sparse matrices.  The sparse matrix
+ implementation uses code from the LDL sparse matrix package and
+ code from the Metis package of partitioning algorithms.
+
+Package: r-cran-mgcv-dbgsym
+Architecture: amd64
+Version: 1.8-23-1.1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: mgcv
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 219
+Depends: r-cran-mgcv (= 1.8-23-1.1)
+Filename: ./r-cran-mgcv-dbgsym_1.8-23-1.1_amd64.deb
+Size: 201048
+MD5sum: 9629e117f6ddc4a5f356d11caafa21d7
+SHA1: 2d593f29236d4aea15919b3889d372a9934cca11
+SHA256: 0629f8b03ed25a959fedeb5d9d50728adc20b068062a87eafa7a9ad6d604437a
+SHA512: f49ab163e94557dc208e1eec32664ba19a64006818413ea20fed285fa1455924ea7403fac157f931a12d8eed3d920ef4591445336f96e486dd80a0018051da3f
+Description: debug symbols for r-cran-mgcv
+Build-Ids: 2c6e383a9a11003fb8ed210eb34bc20bea3262b1
+
+Package: r-cran-mgcv
+Architecture: amd64
+Version: 1.8-23-1.1
+Priority: optional
+Section: gnu-r
+Source: mgcv
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 2897
+Depends: r-base-core (>= 3.5.0-1), r-api-3.5, libblas3 | libblas.so.3, libc6 (>= 2.23), libgfortran4 (>= 7), libgomp1 (>= 4.9), liblapack3 | liblapack.so.3, libquadmath0 (>= 4.6), r-cran-nlme, r-cran-matrix
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-mgcv_1.8-23-1.1_amd64.deb
+Size: 2545984
+MD5sum: 81b731cdc22d3088987eeb22d94709c3
+SHA1: 4e2c05febc9d0b9c1304e755a1b1a75940984a4b
+SHA256: 4a7eb1e99ba39dee10b2192f9c17811d215ce732d1cfcbd26beb128abf4760be
+SHA512: bc3e34732c1665a02129e3251c3422145b0156df80ba4e4ebca93c8b19e991906b833e2527749f432aa25d9c0377244855088fdf755f79276dac814844b2bd9b
+Homepage: https://cran.r-project.org/package=mgcv
+Description: GNU R package for multiple parameter smoothing estimation
+ This package provides functions for generalised additive models (GAMs)
+ and other generalized ridge regression problems with multiple smoothing
+ parameter selection by GCV or UBRE. It includes an implementation (not
+ a clone) of gam().
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+
+Package: r-cran-nlme-dbgsym
+Architecture: amd64
+Version: 3.1.137-1.1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: nlme
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 86
+Depends: r-cran-nlme (= 3.1.137-1.1)
+Filename: ./r-cran-nlme-dbgsym_3.1.137-1.1_amd64.deb
+Size: 70560
+MD5sum: 80f3f07b032b065ec8dd84a5ccca632b
+SHA1: 4214ccefeb8502aecbb93d51e1888b7a35e454ee
+SHA256: 413a3a41d6e47883ace7180fb96c3fdf94f2debdc070cd20f119cbb004161ba0
+SHA512: 0f1171beb35409cf9008916ab2d4153fb54ad6ddbb006d8aebcecba5d9d1c830fe97b333b5d9d3b8d753bbfe2a5d3f10534aa09352fcd795f4cd9621a9ae463f
+Description: debug symbols for r-cran-nlme
+Build-Ids: 5a3f21412b8f68f150c1db20c2815b8e6d6b0ff3
+
+Package: r-cran-nlme
+Architecture: amd64
+Version: 3.1.137-1.1
+Priority: optional
+Section: gnu-r
+Source: nlme
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 2725
+Depends: r-base-core (>= 3.5.0-1), r-api-3.5, libc6 (>= 2.14), libgfortran4 (>= 7), libquadmath0 (>= 4.6), r-cran-lattice (>= 0.12-11.1)
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-nlme_3.1.137-1.1_amd64.deb
+Size: 2222940
+MD5sum: 0f588a32c32980bb892aa9944347b470
+SHA1: 20f45ceb69a1e7f18d2f16cb7b4272b87e298107
+SHA256: abdb6226d7561c1d774948f50612133c8310693f1155953b4265a8e517ff1edb
+SHA512: 7a819f43bb5659d254cc58645886b6f712f682eb53f98a21f0c7b3ed68da79e72d9f6332ba9e7d201d567d4cd903133ad06511eb0b19682d7ddfb9fe32286114
+Homepage: https://cran.r-project.org/package=nlme
+Description: GNU R package for (non-)linear mixed effects models
+ This package provides functions to fit and compare linear and non-linear
+ mixed-effects models.
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+
+Package: r-cran-nnet-dbgsym
+Architecture: amd64
+Version: 7.3-12-2.1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: r-cran-nnet
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 27
+Depends: r-cran-nnet (= 7.3-12-2.1)
+Filename: ./r-cran-nnet-dbgsym_7.3-12-2.1_amd64.deb
+Size: 12792
+MD5sum: 005843012acab536287d36c525c8b313
+SHA1: 148260f9ce248ea48374a387a8b13659c34a6891
+SHA256: 125b08edd89625ad1b4de17e544ad2b1d347f4409f744138268c2a0aa78b0865
+SHA512: 30f7cec5fcb21f05f5f04ebf3e63ab65c003b73e69db55efafa2363919a11020c64fe9983c5c87ff7d108c5fcb1517265d24e4c645a3c8ba93ab8adfc02e0afd
+Description: debug symbols for r-cran-nnet
+Build-Ids: 3974d7aec8bc3cdd325babeedb0e9b22b5c73229
+
+Package: r-cran-nnet
+Architecture: amd64
+Version: 7.3-12-2.1
+Priority: optional
+Section: gnu-r
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 181
+Depends: r-base-core (>= 3.5.0-1), r-api-3.5, libc6 (>= 2.4)
+Replaces: r-cran-vr (<< 7.3-0)
+Filename: ./r-cran-nnet_7.3-12-2.1_amd64.deb
+Size: 110496
+MD5sum: d010c025c2072eb965e515a785332dfc
+SHA1: b1099185825a538d78f28e0213d83f99944454f7
+SHA256: 30736f6ea2a65b2b0bfcf1ddfcc6b55298dc1f9ff2c0988d35edacbd18d6134b
+SHA512: 061be38d535b3fadbd94ee921a0e77427759cb0a217d4e822a12a251c4bbf9701b848b4abfccf1c3b0a16ea6e761c3e669fb6b3d06a11572f9559e0235f432a1
+Homepage: https://cran.r-project.org/package=nnet
+Description: GNU R package for feed-forward neural networks
+ The nnet package provides functions and datasets to support
+ feed-forward neural networks with a single hidden layer, and
+ multinomial log-linear models, as discussed in the book 'Modern
+ Applied Statistics with S' (4th edition) by W.N. Venables and
+ B.D. Ripley. The following URL provides more details about the book:
+ URL: http://www.stats.ox.ac.uk/pub/MASS4
+
+Package: r-cran-rpart-dbgsym
+Architecture: amd64
+Version: 4.1-13-1.1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: rpart
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 67
+Depends: r-cran-rpart (= 4.1-13-1.1)
+Filename: ./r-cran-rpart-dbgsym_4.1-13-1.1_amd64.deb
+Size: 49272
+MD5sum: 02e39bdd1bb66141e9c29205a8305537
+SHA1: b5327fe542f8d558c7c6a72e463f71ef45cc4c1b
+SHA256: 61e92323dc790434919babe9ef115b0566b773b7ae6df0e74538aeaf5a9d64ed
+SHA512: dbc923d9ccd3ec576957f3f1896135d6ca61b3e536c60e1f3a50eb60559961e89594c38b9636b16fc2e772ef6fec8582e2f69d693ae1087c9634585a984c55a4
+Description: debug symbols for r-cran-rpart
+Build-Ids: 57d5c9802ea1ba68b68ff74e400e09c81573b2a3
+
+Package: r-cran-rpart
+Architecture: amd64
+Version: 4.1-13-1.1
+Priority: optional
+Section: gnu-r
+Source: rpart
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 1141
+Depends: r-base-core (>= 3.5.0-1), r-api-3.5, libc6 (>= 2.14), r-cran-survival
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-rpart_4.1-13-1.1_amd64.deb
+Size: 889432
+MD5sum: 2d374a9f721d9f0a5a560c73e6d27391
+SHA1: 228a86fcc01168be3498058f127f8459957b7e52
+SHA256: 612fd08b95655c594c07b51daa058852a05acd0482cc2f8401ccb9cdd7d43763
+SHA512: f0f665d817f90ea10db5a0429c7d01d9a7bcabd0fa3e1e73de1e30814d24d02fc47724fe680aa31a89d3f34b58a2018a52c908c69e73dfc32e2e13e622986000
+Homepage: https://cran.r-project.org/package=rpart
+Description: GNU R package for recursive partitioning and regression trees
+ This package provides functions to recursive partitioning and regression
+ trees.
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+ .
+ URL (of the S-Plus original): http://www.mayo.edu/hsr/Sfunc.html
+
+Package: r-cran-spatial-dbgsym
+Architecture: amd64
+Version: 7.3-11-2.1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: r-cran-spatial
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 33
+Depends: r-cran-spatial (= 7.3-11-2.1)
+Filename: ./r-cran-spatial-dbgsym_7.3-11-2.1_amd64.deb
+Size: 18668
+MD5sum: 161014ae1ea04cd18b4b67fc30d5dfd3
+SHA1: 044ed7cd194854efc4d80e1d970bf8c2c43d8b26
+SHA256: 271043b6a32a16b61c25564741601421deb37a78ecf8281348d674d4aa51d6a2
+SHA512: 7c307cd136746f682185269f10a437b470be9948e2679ef3a06d40401b89dc53281016067a919d8f13150c5b900b2c08b93e3c6eb5ce181237327df07604c11c
+Description: debug symbols for r-cran-spatial
+Build-Ids: fd3bd7517b4423f0d4849a22b6c1ea4bb75a8fa7
+
+Package: r-cran-spatial
+Architecture: amd64
+Version: 7.3-11-2.1
+Priority: optional
+Section: gnu-r
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 232
+Depends: r-base-core (>= 3.5.0-1), r-api-3.5, libc6 (>= 2.4)
+Replaces: r-cran-vr (<< 7.3-0)
+Filename: ./r-cran-spatial_7.3-11-2.1_amd64.deb
+Size: 127180
+MD5sum: 05e529972e5964d317c0d01f1dbc3797
+SHA1: 3c99ab5314f09d34b6088c23fe8f9fc22c61d4fc
+SHA256: 5c47c3cde291b0b93637feaf937b0f1849aaf350bd31c2184ca62efecbc7de44
+SHA512: d9a75609e7c06677a7f90d73811b724fd3426a4905475b5fc3a825696753e8028bc6ca4dae24e05839f74a27b3eff1bdeaee31aa132435b3876055180b579679
+Homepage: https://cran.r-project.org/package=spatial
+Description: GNU R package for spatial statistics
+ The spatial package provides functions and datasets to support
+ chapter 15 on 'Spatial Statistic' in the book 'Modern Applied
+ Statistics with S' (4th edition) by W.N. Venables and
+ B.D. Ripley. The following URL provides more details about the book:
+ URL: http://www.stats.ox.ac.uk/pub/MASS4
+
+Package: r-doc-html
+Architecture: all
+Version: 3.5.0-1
+Priority: optional
+Section: doc
+Source: r-base
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 3005
+Suggests: r-base-core, mozilla | www-browser
+Replaces: r-base (<= 1.4.1-1)
+Filename: ./r-doc-html_3.5.0-1_all.deb
+Size: 561084
+MD5sum: f36b8c89e2b5e45aa509dd8f4637b3e9
+SHA1: 027bc44353b5af60a966b4b5b422514021f89ff9
+SHA256: 5f1e0d5c2551236a9f9449e797c9515b94e1b202ba1fcc4be06d3d0ddaaf659d
+SHA512: 54a2c3d51d8ed96af6713ef755aa4a02112d6871f8dc4bd3dab15b666d8026f8060623d3b5b4ab3f849d84c8a253fa424646b8fe3b3d935fdc03a3e9e9192d65
+Homepage: http://www.r-project.org/
+Description: GNU R html manuals for statistical computing system
+ R is a system for statistical computation and graphics.  It consists
+ of a language plus a run-time environment with graphics, a debugger,
+ access to certain system functions, and the ability to run programs
+ stored in script files.
+ .
+ The design of R has been heavily influenced by two existing languages:
+ Becker, Chambers & Wilks' S and Sussman's Scheme.  Whereas the
+ resulting language is very similar in appearance to S, the underlying
+ implementation and semantics are derived from Scheme.
+ .
+ The core of R is an interpreted computer language which allows
+ branching and looping as well as modular programming using functions.
+ Most of the user-visible functions in R are written in R.  It is
+ possible for the user to interface to procedures written in the
+ C, C++, or FORTRAN languages for efficiency, and many of R's core
+ functions do so.  The R distribution contains functionality for a
+ large number of statistical procedures and underlying applied math
+ computations.  There is also a large set of functions which provide
+ a flexible graphical environment for creating various kinds of data
+ presentations.
+ .
+ Additionally, several thousand extension "packages" are available from
+ CRAN, the Comprehensive R Archive Network, many also as Debian packages,
+ named 'r-cran-<name>'.
+ .
+ This package provides the R manuals in html format. The sibling packages
+ r-doc-pdf and r-doc-info provides the same manuals.
+
+Package: r-doc-info
+Architecture: all
+Version: 3.5.0-1
+Priority: optional
+Section: doc
+Source: r-base
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 627
+Depends: dpkg (>= 1.15.4) | install-info
+Suggests: r-base-core, info (>= 3.12) | info-browser
+Replaces: r-base (<= 1.4.1-1)
+Filename: ./r-doc-info_3.5.0-1_all.deb
+Size: 623400
+MD5sum: cbf5dff00556cf19330457242711c12b
+SHA1: 5255af1aa75002b48ead8ca1c8ba672a13b0269d
+SHA256: 67003ec6e3e723204eee985482dbddd9f428d723e812d94b6ee99d293fad1edd
+SHA512: f28a6fc64f4b27340676f97f94b039770003c65f3f16b8eb5e2b698b01a13cdee21b9a1408c0c3fccb82d7d5606229674d270a0b39b69c7f424e22dd17e49a72
+Homepage: http://www.r-project.org/
+Description: GNU R info manuals statistical computing system
+ R is a system for statistical computation and graphics.  It consists
+ of a language plus a run-time environment with graphics, a debugger,
+ access to certain system functions, and the ability to run programs
+ stored in script files.
+ .
+ The design of R has been heavily influenced by two existing languages:
+ Becker, Chambers & Wilks' S and Sussman's Scheme.  Whereas the
+ resulting language is very similar in appearance to S, the underlying
+ implementation and semantics are derived from Scheme.
+ .
+ The core of R is an interpreted computer language which allows
+ branching and looping as well as modular programming using functions.
+ Most of the user-visible functions in R are written in R.  It is
+ possible for the user to interface to procedures written in the
+ C, C++, or FORTRAN languages for efficiency, and many of R's core
+ functions do so.  The R distribution contains functionality for a
+ large number of statistical procedures and underlying applied math
+ computations.  There is also a large set of functions which provide
+ a flexible graphical environment for creating various kinds of data
+ presentations.
+ .
+ Additionally, several thousand extension "packages" are available from
+ CRAN, the Comprehensive R Archive Network, many also as Debian packages,
+ named 'r-cran-<name>'.
+ .
+ This package provides the R manuals in info format. The sibling packages
+ r-doc-html and r-doc-pdf provide the same manuals.
+
+Package: r-doc-pdf
+Architecture: all
+Version: 3.5.0-1
+Priority: optional
+Section: doc
+Source: r-base
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 15530
+Suggests: r-base-core, xdg-utils | pdf-viewer
+Filename: ./r-doc-pdf_3.5.0-1_all.deb
+Size: 9362500
+MD5sum: 35edaf86cb2f61f0968e5e087d303eb1
+SHA1: 4678175c93f00420825640e772df078a70a52523
+SHA256: eabb1fec9781e5d64da1be9ea41d486f3e7c43e830f3628e3041cbdb7ba96a7c
+SHA512: 149a9d55506c97a97dc78bc19f33038ce18ae1ee18b06547e8cf4c2c24b7156c88ab56ffdb8a111e3b5719253be93741d5c93939f1fedde60ed0e11322b37690
+Homepage: http://www.r-project.org/
+Description: GNU R pdf manuals for statistical computing system
+ R is a system for statistical computation and graphics.  It consists
+ of a language plus a run-time environment with graphics, a debugger,
+ access to certain system functions, and the ability to run programs
+ stored in script files.
+ .
+ The design of R has been heavily influenced by two existing languages:
+ Becker, Chambers & Wilks' S and Sussman's Scheme.  Whereas the
+ resulting language is very similar in appearance to S, the underlying
+ implementation and semantics are derived from Scheme.
+ .
+ The core of R is an interpreted computer language which allows
+ branching and looping as well as modular programming using functions.
+ Most of the user-visible functions in R are written in R.  It is
+ possible for the user to interface to procedures written in the
+ C, C++, or FORTRAN languages for efficiency, and many of R's core
+ functions do so.  The R distribution contains functionality for a
+ large number of statistical procedures and underlying applied math
+ computations.  There is also a large set of functions which provide
+ a flexible graphical environment for creating various kinds of data
+ presentations.
+ .
+ Additionally, several thousand extension "packages" are available from
+ CRAN, the Comprehensive R Archive Network, many also as Debian packages,
+ named 'r-cran-<name>'.
+ .
+ This package provides the R manuals in pdf format. The sibling packages
+ r-doc-html and r-doc-info provides the same manuals.
+
+Package: r-mathlib
+Architecture: amd64
+Version: 3.5.0-1
+Priority: optional
+Section: gnu-r
+Source: r-base
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 2458
+Depends: libc6 (>= 2.23), libgomp1 (>= 4.2.1)
+Recommends: r-base-core (= 3.5.0-1), r-base-dev (= 3.5.0-1)
+Filename: ./r-mathlib_3.5.0-1_amd64.deb
+Size: 1833112
+MD5sum: 8fc7acf21d2d28c94f7699d749d51904
+SHA1: 74621d26d1e1f7921e563ffec21b0b2fbf2ca006
+SHA256: 028b7e33e8b0d7c59daf3d2fee4f78006c11a2397446e9a8e4ae8d5bdf74b9b2
+SHA512: 26b69a6f954bcd653733f971f0b717b33d8c1095f11fb340a32987a088d192fb8fe158811dcd975244d96d3ea473dd0e9f90c180cefa0429fdd95d4b3710ce1f
+Homepage: http://www.r-project.org/
+Description: GNU R standalone mathematics library
+ R is a system for statistical computation and graphics.  It consists
+ of a language plus a run-time environment with graphics, a debugger,
+ access to certain system functions, and the ability to run programs
+ stored in script files.
+ .
+ The design of R has been heavily influenced by two existing languages:
+ Becker, Chambers & Wilks' S and Sussman's Scheme.  Whereas the
+ resulting language is very similar in appearance to S, the underlying
+ implementation and semantics are derived from Scheme.
+ .
+ The core of R is an interpreted computer language which allows
+ branching and looping as well as modular programming using functions.
+ Most of the user-visible functions in R are written in R.  It is
+ possible for the user to interface to procedures written in the
+ C, C++, or FORTRAN languages for efficiency, and many of R's core
+ functions do so.  The R distribution contains functionality for a
+ large number of statistical procedures and underlying applied math
+ computations.  There is also a large set of functions which provide
+ a flexible graphical environment for creating various kinds of data
+ presentations.
+ .
+ Additionally, several thousand extension "packages" are available from
+ CRAN, the Comprehensive R Archive Network, many also as Debian packages,
+ named 'r-cran-<name>'.
+ .
+ This package provides the libRmath shared and static libraries which can
+ be called from standalone C or C++ code.
+
+Package: r-recommended
+Architecture: all
+Version: 3.5.0-1
+Priority: optional
+Section: gnu-r
+Source: r-base
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 13
+Depends: r-base-core (>= 3.5.0-1), r-cran-boot (>= 1.2.19), r-cran-cluster (>= 1.9.6-2), r-cran-foreign (>= 0.7-2), r-cran-kernsmooth (>= 2.2.14), r-cran-lattice (>= 0.10.11), r-cran-mgcv (>= 1.1.5), r-cran-nlme (>= 3.1.52), r-cran-rpart (>= 3.1.20), r-cran-survival (>= 2.13.2-1), r-cran-mass, r-cran-class, r-cran-nnet, r-cran-spatial, r-cran-codetools, r-cran-matrix
+Filename: ./r-recommended_3.5.0-1_all.deb
+Size: 2768
+MD5sum: 47ec4a810631b98b31c6bf791ee78033
+SHA1: 763ff53bc4716df86415af4aa4d63762f7b73037
+SHA256: dc224ff91b1400cc580696e226866f5055ffd888933bee644cdd91e3b33c43e7
+SHA512: a05c696d61c4ab3289ebfc360e16c6606c59e69ad7e7917b0b94524d00dbcb1cc6569948cf18039450124a2d9f23ba2ec6f5745f776be16ff3215e787f4069b7
+Homepage: http://www.r-project.org/
+Description: GNU R collection of recommended packages [metapackage]
+ R is a system for statistical computation and graphics.  It consists
+ of a language plus a run-time environment with graphics, a debugger,
+ access to certain system functions, and the ability to run programs
+ stored in script files.
+ .
+ The design of R has been heavily influenced by two existing languages:
+ Becker, Chambers & Wilks' S and Sussman's Scheme.  Whereas the
+ resulting language is very similar in appearance to S, the underlying
+ implementation and semantics are derived from Scheme.
+ .
+ The core of R is an interpreted computer language which allows
+ branching and looping as well as modular programming using functions.
+ Most of the user-visible functions in R are written in R.  It is
+ possible for the user to interface to procedures written in the
+ C, C++, or FORTRAN languages for efficiency, and many of R's core
+ functions do so.  The R distribution contains functionality for a
+ large number of statistical procedures and underlying applied math
+ computations.  There is also a large set of functions which provide
+ a flexible graphical environment for creating various kinds of data
+ presentations.
+ .
+ Additionally, several thousand extension "packages" are available from
+ CRAN, the Comprehensive R Archive Network, many also as Debian packages,
+ named 'r-cran-<name>'.
+ .
+ This Debian package is now a metapackage that depends on a set of
+ packages that are recommended by the upstream R core team as part of a
+ complete R distribution, and distributed along with the source of R
+ itself, as well as directly via the CRAN network of mirrors. This set
+ comprises the following packages (listed in their upstream names):
+  - KernSmooth: Functions for kernel smoothing for Wand & Jones (1995)
+  - Matrix: Classes and methods for dense and sparse matrices and
+    operations on them using Lapack and SuiteSparse
+  - MASS, class, nnet and spatial: packages from Venables and Ripley,
+    `Modern Applied Statistics with S' (4th edition).
+  - boot: Bootstrap R (S-Plus) Functions from the book "Bootstrap Methods
+    and Their Applications" by A.C. Davison and D.V. Hinkley (1997).
+  - cluster: Functions for clustering (by Rousseeuw et al.)
+  - codetools: Code analysis tools for R
+  - foreign: Read data stored by Minitab, S, SAS, SPSS, Stata, ...
+  - lattice: Implementation of Trellis (R) graphics
+  - mgcv: Multiple smoothing parameter estimation and GAMs by GCV
+  - nlme: Linear and nonlinear mixed effects models
+  - rpart: Recursive partitioning and regression trees
+  - survival: Survival analysis, including penalised likelihood.
+

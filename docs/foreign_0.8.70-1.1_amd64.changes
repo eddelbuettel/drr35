@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Sat, 28 Apr 2018 13:37:57 -0500
+Source: foreign
+Binary: r-cran-foreign
+Architecture: source amd64
+Version: 0.8.70-1.1
+Distribution: unstable
+Urgency: medium
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Changed-By: Dirk Eddelbuettel <edd@debian.org>
+Description:
+ r-cran-foreign - GNU R package to read/write data from other stat. systems
+Changes:
+ foreign (0.8.70-1.1) unstable; urgency=medium
+ .
+   * (Inofficial) Rebuild for R 3.5.0
+ .
+   * Manual override for ${R:Depends} while dh-r is looked at
+ .
+   * debian/control: Set Build-Depends: to current R version
+Checksums-Sha1:
+ 5eb471a63e9499a4e0cebe53e7cc4a19701e49a8 1000 foreign_0.8.70-1.1.dsc
+ 02253a8c5734ea13bbdf3fbb4ed0debbd16dda5a 344502 foreign_0.8.70.orig.tar.gz
+ 095040ed02d4d65303cad862926ab2df95bca75e 4076 foreign_0.8.70-1.1.debian.tar.xz
+ 13e9d79b178ef213c587b84605e83f898ae6696e 8235 foreign_0.8.70-1.1_amd64.buildinfo
+ f48228409aef48e578374be8a3a2d129571ae629 112860 r-cran-foreign-dbgsym_0.8.70-1.1_amd64.deb
+ 2bd7370475f2760855fb33fdeca24a632bfc863c 243944 r-cran-foreign_0.8.70-1.1_amd64.deb
+Checksums-Sha256:
+ 163c429a2786882fd6e197bf1d539b74c82f5ab2f7c1c1d61242f3ea9dfe0ac2 1000 foreign_0.8.70-1.1.dsc
+ 86cd8645f15fca4e2854a1011469114bb93d3774a18cb6db4805873830a2b886 344502 foreign_0.8.70.orig.tar.gz
+ d3d15110e071f0164ff71f47525807451dc40783f6ca8bd66b4fe2754f2e57b4 4076 foreign_0.8.70-1.1.debian.tar.xz
+ ee56df6ad675182b3e978323c08cc02c0efd2dee88b48280d449498f0c00e266 8235 foreign_0.8.70-1.1_amd64.buildinfo
+ 6d4150127653418a591d6760c3a920ee5a23ea45575f0aa6c51e13d5f97f577f 112860 r-cran-foreign-dbgsym_0.8.70-1.1_amd64.deb
+ 82d399d14fef553dc936905988d35aec8aee3c64c5083f5268396f2f53a3848c 243944 r-cran-foreign_0.8.70-1.1_amd64.deb
+Files:
+ ccfa231ada13326e4c466a402a859dfb 1000 gnu-r optional foreign_0.8.70-1.1.dsc
+ bc7cb1df26507350bb9971f83d2f6157 344502 gnu-r optional foreign_0.8.70.orig.tar.gz
+ a1945e0e05228e2881a8c61cbf6e9be3 4076 gnu-r optional foreign_0.8.70-1.1.debian.tar.xz
+ 403e0debec0953d85384f3f01ef29fb5 8235 gnu-r optional foreign_0.8.70-1.1_amd64.buildinfo
+ dccb7dfe3d5bf0c55a4fc37a482061d8 112860 debug optional r-cran-foreign-dbgsym_0.8.70-1.1_amd64.deb
+ dda04c1ad8b56dbd709e0800e92088a3 243944 gnu-r optional r-cran-foreign_0.8.70-1.1_amd64.deb

@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Sat, 28 Apr 2018 14:49:04 -0500
+Source: rmatrix
+Binary: r-cran-matrix
+Architecture: source amd64
+Version: 1.2-14-1.1
+Distribution: unstable
+Urgency: medium
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Changed-By: Dirk Eddelbuettel <edd@debian.org>
+Description:
+ r-cran-matrix - GNU R package of classes for dense and sparse matrices
+Changes:
+ rmatrix (1.2-14-1.1) unstable; urgency=medium
+ .
+   * (Inofficial) Rebuild for R 3.5.0
+ .
+   * Manual override for ${R:Depends} while dh-r is looked at
+ .
+   * debian/control: Set Build-Depends: to current R version
+Checksums-Sha1:
+ f49a4d40918c68d22dd19b7f89230183d4724804 1029 rmatrix_1.2-14-1.1.dsc
+ cfed80394ad21cfa0a4c8b9b184c480a6e3f4bbf 1832986 rmatrix_1.2-14.orig.tar.gz
+ df57ca6d947036ba0c362a748dbc5f99fe4cf5ab 5452 rmatrix_1.2-14-1.1.debian.tar.xz
+ 6f0ee62d0ca1c5aab4a2806bce465f3dc90483f6 681396 r-cran-matrix-dbgsym_1.2-14-1.1_amd64.deb
+ 52ef9c6b70b8cd9981a276a6ea63718fe4e1b004 3375908 r-cran-matrix_1.2-14-1.1_amd64.deb
+ 41af5c1c5e140e07bcf93c02d9bff03e51578a34 8270 rmatrix_1.2-14-1.1_amd64.buildinfo
+Checksums-Sha256:
+ a400e6f0bd03520e544b5fe66435b69ae802678d8df99189c7900613ddd13655 1029 rmatrix_1.2-14-1.1.dsc
+ 49a6403547b66675cb44c1afb04bb87130c054510cb2b94971435a826ab41396 1832986 rmatrix_1.2-14.orig.tar.gz
+ 32510317df5091ad5cd5b97bad5aca7ffcf02452314fb102d276ff97f01b458b 5452 rmatrix_1.2-14-1.1.debian.tar.xz
+ 97edc7dec9eff185c7137d4469e97e57e1b31b8837850bfcd1ef8b5bdcd2bcd1 681396 r-cran-matrix-dbgsym_1.2-14-1.1_amd64.deb
+ c12e02f3caf3823e848db450a25ebe83c3b468a1d7c8b48cf3cc2927189a6e52 3375908 r-cran-matrix_1.2-14-1.1_amd64.deb
+ b00e988876975c2bb0696774e72c5ce1939453fa6ad2ce3e225af77a6d5f44f8 8270 rmatrix_1.2-14-1.1_amd64.buildinfo
+Files:
+ 582e6ec559e593fb19f6e7de0dc1daf2 1029 gnu-r optional rmatrix_1.2-14-1.1.dsc
+ b2babcf1515625196b75592c9b345bba 1832986 gnu-r optional rmatrix_1.2-14.orig.tar.gz
+ d673a55b0d386a3d340a9e89ecef5406 5452 gnu-r optional rmatrix_1.2-14-1.1.debian.tar.xz
+ ed652661350e86a8aed8a768a227a5b5 681396 debug optional r-cran-matrix-dbgsym_1.2-14-1.1_amd64.deb
+ 7aefc854d3e5936846ffaa58ea1cb0bf 3375908 gnu-r optional r-cran-matrix_1.2-14-1.1_amd64.deb
+ 4945653811cd774d0ec23a4b8f239a66 8270 gnu-r optional rmatrix_1.2-14-1.1_amd64.buildinfo

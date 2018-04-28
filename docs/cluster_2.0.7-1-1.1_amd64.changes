@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Sat, 28 Apr 2018 09:05:21 -0500
+Source: cluster
+Binary: r-cran-cluster
+Architecture: source amd64
+Version: 2.0.7-1-1.1
+Distribution: unstable
+Urgency: medium
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Changed-By: Dirk Eddelbuettel <edd@debian.org>
+Description:
+ r-cran-cluster - GNU R package for cluster analysis by Rousseeuw et al
+Changes:
+ cluster (2.0.7-1-1.1) unstable; urgency=medium
+ .
+   * (Inofficial) Rebuild for R 3.5.0
+ .
+   * Manual override for ${R:Depends} while dh-r is looked at
+ .
+   * debian/control: Set Build-Depends: to current R version
+Checksums-Sha1:
+ 0ff4e3e961b8582cde6d0726eb340b9b8b792a02 1007 cluster_2.0.7-1-1.1.dsc
+ 3ff6692fc26d2563eb2b6eb5187e5d6141026c5d 324660 cluster_2.0.7-1.orig.tar.gz
+ 6d3bc33540e8587b8a55f8ff46e8e6e658276adf 4128 cluster_2.0.7-1-1.1.debian.tar.xz
+ 4a76e0cce59ecdf9516b35a7a2344d8bdb7c9336 8243 cluster_2.0.7-1-1.1_amd64.buildinfo
+ df12c43682b9f8ca50ad868f8bc8bc6b2bc280c7 57412 r-cran-cluster-dbgsym_2.0.7-1-1.1_amd64.deb
+ 2c011aea73b42caf611bb18135b81d3f10abfe68 530544 r-cran-cluster_2.0.7-1-1.1_amd64.deb
+Checksums-Sha256:
+ ee38e397304a67b7f4104739bec5ed3f1e01337ce3e96b67e315afa3fcf0d47a 1007 cluster_2.0.7-1-1.1.dsc
+ b10141090cf3c2b62260611a0ea822eb2f7bab9f4fd656c48bdc12b65c5c3dbf 324660 cluster_2.0.7-1.orig.tar.gz
+ 305ef725f3e3ca6474554ea7980429bf0877e4d499c3f372f4e2d265fba85dd8 4128 cluster_2.0.7-1-1.1.debian.tar.xz
+ 88bf32e394d8ffa960b28fe44894cd8b9e9a438afc0304f80c933cd7da26535a 8243 cluster_2.0.7-1-1.1_amd64.buildinfo
+ 2c02e34c19a3cf3eef701840e87608fcee5ae85ddd7569c5bbee7feffdb2bd42 57412 r-cran-cluster-dbgsym_2.0.7-1-1.1_amd64.deb
+ 129aea59bc4534aceef2ef5f76d32e2704ded6c9eae5a29422d7d8a540e40ad1 530544 r-cran-cluster_2.0.7-1-1.1_amd64.deb
+Files:
+ f447985017f4f2075c91b84b0ed9c4b9 1007 gnu-r optional cluster_2.0.7-1-1.1.dsc
+ a37add21b91d3e4f3883d005331e0d45 324660 gnu-r optional cluster_2.0.7-1.orig.tar.gz
+ 22ab4303a624cd44c9671db804491bff 4128 gnu-r optional cluster_2.0.7-1-1.1.debian.tar.xz
+ 701aab6a50c643d00915512c64884ace 8243 gnu-r optional cluster_2.0.7-1-1.1_amd64.buildinfo
+ 4ed506387d38dd36fb75035411189834 57412 debug optional r-cran-cluster-dbgsym_2.0.7-1-1.1_amd64.deb
+ 1d163bafe0b21d68998f26a58d176f89 530544 gnu-r optional r-cran-cluster_2.0.7-1-1.1_amd64.deb

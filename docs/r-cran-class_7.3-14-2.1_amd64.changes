@@ -1,0 +1,47 @@
+Format: 1.8
+Date: Sat, 28 Apr 2018 14:42:46 -0500
+Source: r-cran-class
+Binary: r-cran-class
+Architecture: source amd64
+Version: 7.3-14-2.1
+Distribution: unstable
+Urgency: medium
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Changed-By: Dirk Eddelbuettel <edd@debian.org>
+Description:
+ r-cran-class - GNU R package for classification
+Changes:
+ r-cran-class (7.3-14-2.1) unstable; urgency=medium
+ .
+   * (Inofficial) Rebuild for R 3.5.0
+ .
+   * Manual override for ${R:Depends} while dh-r is looked at
+ .
+   * debian/control: Set Build-Depends: to current R version
+   * debian/control: Set Standards-Version: to current version
+   * debian/control: Add Depends: on ${misc:Depends}
+   * debian/control: Add Vcs-Browser: and Vcs-Git:
+   * debian/compat: Increase level to 9
+   * debian/control: Switch from cdbs to dh-r
+   * debian/rules: Idem
+Checksums-Sha1:
+ e01d4b2ea044d0e10a755d6816a96c2bf62d4250 1035 r-cran-class_7.3-14-2.1.dsc
+ 9376f106ae4865f70a46d8e4bea33c98a3404734 19726 r-cran-class_7.3-14.orig.tar.gz
+ 53650547adbcca322533ba85d166deefacf03fec 3048 r-cran-class_7.3-14-2.1.debian.tar.xz
+ af6e671259656c5be27779f41a53b2167b6b878d 9496 r-cran-class-dbgsym_7.3-14-2.1_amd64.deb
+ c054e5c104a6f0ddb993693a1324f3c291cf53a5 8272 r-cran-class_7.3-14-2.1_amd64.buildinfo
+ 6366fbc5fc111d797fc17d57b2bd75f47ec6bf95 85860 r-cran-class_7.3-14-2.1_amd64.deb
+Checksums-Sha256:
+ 86a9e45824fe9e9c83384a3e7389163ab252808b73fe56dc121861e660f9d7cd 1035 r-cran-class_7.3-14-2.1.dsc
+ 18b876dbc18bebe6a00890eab7d04ef72b903ba0049d5ce50731406a82426b9c 19726 r-cran-class_7.3-14.orig.tar.gz
+ 10c4639e76c8aadded72b757c90cce11e9fb8740bb20e8bc19059c3043233c81 3048 r-cran-class_7.3-14-2.1.debian.tar.xz
+ 3628a7bebe1dc2d8f75721d4213e4413a53b5478eb0d3a0a65a8ab678bc39f49 9496 r-cran-class-dbgsym_7.3-14-2.1_amd64.deb
+ b7e56b051b64c25490c5be6b2a96887a55f23ea077780f66c6ca947d9e764d14 8272 r-cran-class_7.3-14-2.1_amd64.buildinfo
+ b8662447998e1bd31af5609965a69511fab8d87f7022018c9c36311cb6c00031 85860 r-cran-class_7.3-14-2.1_amd64.deb
+Files:
+ cab3b76ebaf216e5fa7078d7c518138e 1035 gnu-r optional r-cran-class_7.3-14-2.1.dsc
+ 6a21dd206fe4ea29c55faeb65fb2b71e 19726 gnu-r optional r-cran-class_7.3-14.orig.tar.gz
+ 8e86a80dcd27f8c77513411cdfdffaf4 3048 gnu-r optional r-cran-class_7.3-14-2.1.debian.tar.xz
+ caa340a58b27e41da793405e2505f28d 9496 debug optional r-cran-class-dbgsym_7.3-14-2.1_amd64.deb
+ 0fea714889139bc1cbbb3e5357c81aac 8272 gnu-r optional r-cran-class_7.3-14-2.1_amd64.buildinfo
+ 51efcf4bdf60bdba7732cb0b04573a83 85860 gnu-r optional r-cran-class_7.3-14-2.1_amd64.deb

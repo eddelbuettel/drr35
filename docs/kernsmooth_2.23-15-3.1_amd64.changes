@@ -1,0 +1,47 @@
+Format: 1.8
+Date: Sat, 28 Apr 2018 14:29:49 -0500
+Source: kernsmooth
+Binary: r-cran-kernsmooth
+Architecture: source amd64
+Version: 2.23-15-3.1
+Distribution: unstable
+Urgency: medium
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Changed-By: Dirk Eddelbuettel <edd@debian.org>
+Description:
+ r-cran-kernsmooth - GNU R package for kernel smoothing and density estimation
+Changes:
+ kernsmooth (2.23-15-3.1) unstable; urgency=medium
+ .
+   * (Inofficial) Rebuild for R 3.5.0
+ .
+   * Manual override for ${R:Depends} while dh-r is looked at
+ .
+   * debian/control: Set Build-Depends: to current R version
+   * debian/control: Set Standards-Version: to current version
+   * debian/control: Add Depends: on ${misc:Depends}
+   * debian/control: Add Vcs-Browser: and Vcs-Git:
+   * debian/compat: Increase level to 9
+   * debian/control: Switch from cdbs to dh-r
+   * debian/rules: Idem
+Checksums-Sha1:
+ 1facdb1b17851a4dc9cb0a16515425572f930c78 1053 kernsmooth_2.23-15-3.1.dsc
+ c6b35fe9117d2a6eccff097072ec9066bea0fffc 24572 kernsmooth_2.23-15.orig.tar.gz
+ fee8dd348c7330e8331214fd53158172451598a1 3232 kernsmooth_2.23-15-3.1.debian.tar.xz
+ 3a0d30371c119eb53e4599c987c76c14c933d746 8311 kernsmooth_2.23-15-3.1_amd64.buildinfo
+ 6f3c361817fcf49bef827223071471d9d51b5c3e 15032 r-cran-kernsmooth-dbgsym_2.23-15-3.1_amd64.deb
+ dba79e00a2611f2b5707c8314c62a0488ffbc91f 90404 r-cran-kernsmooth_2.23-15-3.1_amd64.deb
+Checksums-Sha256:
+ eb6d352d4b79d4bfd562479cd3441b6c982d1ca1091d1a2fdd21ac6f9e22335c 1053 kernsmooth_2.23-15-3.1.dsc
+ 8b72d23ed121a54af188b2cda4441e3ce2646359309885f6455b82c0275210f6 24572 kernsmooth_2.23-15.orig.tar.gz
+ 0103901a0964b436bd5745a338fe1fb468d763ef3c6ec40b8fc94d61cb777484 3232 kernsmooth_2.23-15-3.1.debian.tar.xz
+ 435c0c9d0052d92df8e04799b27f06cf9c6cbe133f8ee56d08d16499d90f53c1 8311 kernsmooth_2.23-15-3.1_amd64.buildinfo
+ aa0965f10a8672cea942b2307276794aaf0f267108cd3851f089cdd15254e7f6 15032 r-cran-kernsmooth-dbgsym_2.23-15-3.1_amd64.deb
+ 8fd5cda2adadd5adb92e64f2a27c89a1e957e7e9ac1bf329a256e0437d28bbb4 90404 r-cran-kernsmooth_2.23-15-3.1_amd64.deb
+Files:
+ d7f9bec32a018f06eaa9a002505bd5f0 1053 gnu-r optional kernsmooth_2.23-15-3.1.dsc
+ 746cdf26dec72004cf19978e87dcc982 24572 gnu-r optional kernsmooth_2.23-15.orig.tar.gz
+ b69be006f65cd01ec3e7c1bd91b709a4 3232 gnu-r optional kernsmooth_2.23-15-3.1.debian.tar.xz
+ a6803fba4a3d24275fda1d12aae5957c 8311 gnu-r optional kernsmooth_2.23-15-3.1_amd64.buildinfo
+ be110dd7760a0207990cf9398fa9c314 15032 debug optional r-cran-kernsmooth-dbgsym_2.23-15-3.1_amd64.deb
+ 2618c6320e44ceaa3167f78f80ba75c6 90404 gnu-r optional r-cran-kernsmooth_2.23-15-3.1_amd64.deb

@@ -1,0 +1,46 @@
+Format: 1.8
+Date: Sat, 28 Apr 2018 13:53:52 -0500
+Source: lattice
+Binary: r-cran-lattice
+Architecture: source amd64
+Version: 0.20-35-1.1
+Distribution: unstable
+Urgency: medium
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Changed-By: Dirk Eddelbuettel <edd@debian.org>
+Description:
+ r-cran-lattice - GNU R package for 'Trellis' graphics
+Changes:
+ lattice (0.20-35-1.1) unstable; urgency=medium
+ .
+   * (Inofficial) Rebuild for R 3.5.0
+ .
+   * Manual override for ${R:Depends} while dh-r is looked at
+ .
+   * debian/control: Set Build-Depends: to current R version
+   * debian/control: Set Standards-Version: to current version
+   * debian/control: Add Vcs-Browser: and Vcs-Git:
+   * debian/compat: Increase level to 9
+   * debian/control: Switch from cdbs to dh-r
+   * debian/rules: Idem
+Checksums-Sha1:
+ 98fc2242b76df8a2d44f3ce60aef3a105f5dc8f1 1007 lattice_0.20-35-1.1.dsc
+ df7ef01563e217ee3c1d6845d5badb7154e6bdac 359813 lattice_0.20-35.orig.tar.gz
+ d7d962edaa2494b202d1586c22a94ebe087f95a0 4320 lattice_0.20-35-1.1.debian.tar.xz
+ 22e782a444033884d0bfa093e84e4223a50f67a2 8246 lattice_0.20-35-1.1_amd64.buildinfo
+ efa9365c8e8b4f0c950861e38e56bc695da6a9db 10640 r-cran-lattice-dbgsym_0.20-35-1.1_amd64.deb
+ 90d4420797ac7fb4dcec83677c74348c96ca0855 1123916 r-cran-lattice_0.20-35-1.1_amd64.deb
+Checksums-Sha256:
+ d5a59c67455fef753e6aaf5178082b1f318f01bb2d7ac9a667d2c3dbf0cc4adc 1007 lattice_0.20-35-1.1.dsc
+ 0829ab0f4dec55aac6a73bc3411af68441ddb1b5b078d680a7c2643abeaa965d 359813 lattice_0.20-35.orig.tar.gz
+ 59a9fab690caa59238b6e1a98b978f7b047ddb3c9e22d8d221b1c4066dd6eaf5 4320 lattice_0.20-35-1.1.debian.tar.xz
+ bac6839d468dca35398d319dc43009c94122b7dda795ac5f10772d160b14d13c 8246 lattice_0.20-35-1.1_amd64.buildinfo
+ a5d281badf395b080fb8a7b6a64a0378f09e20c5a2f4f9ed1e477647025624af 10640 r-cran-lattice-dbgsym_0.20-35-1.1_amd64.deb
+ 1667efa79c541040baf9d595a83ac36e3e6280a81e4471879b61c968fab8215a 1123916 r-cran-lattice_0.20-35-1.1_amd64.deb
+Files:
+ bad5cc2e177adfb7f4126f39b436e6cf 1007 gnu-r optional lattice_0.20-35-1.1.dsc
+ 07f1814623b3da6278ca61554ff7bfe6 359813 gnu-r optional lattice_0.20-35.orig.tar.gz
+ dd9077aa24abfe7678b1c8a9606de9fb 4320 gnu-r optional lattice_0.20-35-1.1.debian.tar.xz
+ db75a9ebebe399f8346578741a4440e1 8246 gnu-r optional lattice_0.20-35-1.1_amd64.buildinfo
+ 2956cdd6eae29a02280d148cfdba0588 10640 debug optional r-cran-lattice-dbgsym_0.20-35-1.1_amd64.deb
+ 072959d6925110d220d6c03d2ea76365 1123916 gnu-r optional r-cran-lattice_0.20-35-1.1_amd64.deb

@@ -1,0 +1,45 @@
+Format: 1.8
+Date: Sat, 28 Apr 2018 15:16:22 -0500
+Source: rpart
+Binary: r-cran-rpart
+Architecture: source amd64
+Version: 4.1-13-1.1
+Distribution: unstable
+Urgency: medium
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Changed-By: Dirk Eddelbuettel <edd@debian.org>
+Description:
+ r-cran-rpart - GNU R package for recursive partitioning and regression trees
+Changes:
+ rpart (4.1-13-1.1) unstable; urgency=medium
+ .
+   * (Inofficial) Rebuild for R 3.5.0
+ .
+   * Manual override for ${R:Depends} while dh-r is looked at
+ .
+   * debian/control: Set Build-Depends: to current R version
+   * debian/control: Set Standards-Version: to current version
+   * debian/control: Add Vcs-Browser: and Vcs-Git:
+   * debian/control: Switch from cdbs to dh-r
+   * debian/rules: Idem
+Checksums-Sha1:
+ caf36efdb3025e14aa003091599eb9bab2cd9f53 1005 rpart_4.1-13-1.1.dsc
+ 0b7b957f84f88d85709ef80099a9a5768ca11cc0 818290 rpart_4.1-13.orig.tar.gz
+ 1c8571b83688a7b00d0f9e786ee19c798da66389 4280 rpart_4.1-13-1.1.debian.tar.xz
+ b5327fe542f8d558c7c6a72e463f71ef45cc4c1b 49272 r-cran-rpart-dbgsym_4.1-13-1.1_amd64.deb
+ 228a86fcc01168be3498058f127f8459957b7e52 889432 r-cran-rpart_4.1-13-1.1_amd64.deb
+ 1cec4d872e12783c95fbab41ff9ac0822409a8f1 8309 rpart_4.1-13-1.1_amd64.buildinfo
+Checksums-Sha256:
+ 3a1e12ac7e9fc2263f938de31b2d3a37f81aa4f88bf7de7da9ea633ce5f01137 1005 rpart_4.1-13-1.1.dsc
+ 8e11a6552224e0fbe23a85aba95acd21a0889a3fe48277f3d345de3147c7494c 818290 rpart_4.1-13.orig.tar.gz
+ fb7f40144fa85bc2faef1e0f057841e7ff294b2bad3a9480b8dd1f46dcd416e1 4280 rpart_4.1-13-1.1.debian.tar.xz
+ 61e92323dc790434919babe9ef115b0566b773b7ae6df0e74538aeaf5a9d64ed 49272 r-cran-rpart-dbgsym_4.1-13-1.1_amd64.deb
+ 612fd08b95655c594c07b51daa058852a05acd0482cc2f8401ccb9cdd7d43763 889432 r-cran-rpart_4.1-13-1.1_amd64.deb
+ 4cf99a4b70bacce7738b00eaa890b6dc0717324aef7a9af62ff85d2905c77a91 8309 rpart_4.1-13-1.1_amd64.buildinfo
+Files:
+ 009a5389daf1f5e007ef336c2a01027a 1005 gnu-r optional rpart_4.1-13-1.1.dsc
+ 4a1dbde61f9ec91aa7f10d15526e0dcc 818290 gnu-r optional rpart_4.1-13.orig.tar.gz
+ 99062ed0162421fa62c5a15e77d9c086 4280 gnu-r optional rpart_4.1-13-1.1.debian.tar.xz
+ 02e39bdd1bb66141e9c29205a8305537 49272 debug optional r-cran-rpart-dbgsym_4.1-13-1.1_amd64.deb
+ 2d374a9f721d9f0a5a560c73e6d27391 889432 gnu-r optional r-cran-rpart_4.1-13-1.1_amd64.deb
+ da0a5030eeca9da7644cae4442ee46b6 8309 gnu-r optional rpart_4.1-13-1.1_amd64.buildinfo

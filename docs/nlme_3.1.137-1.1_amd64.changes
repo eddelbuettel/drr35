@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Sat, 28 Apr 2018 14:45:12 -0500
+Source: nlme
+Binary: r-cran-nlme
+Architecture: source amd64
+Version: 3.1.137-1.1
+Distribution: unstable
+Urgency: medium
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Changed-By: Dirk Eddelbuettel <edd@debian.org>
+Description:
+ r-cran-nlme - GNU R package for (non-)linear mixed effects models
+Changes:
+ nlme (3.1.137-1.1) unstable; urgency=medium
+ .
+   * (Inofficial) Rebuild for R 3.5.0
+ .
+   * Manual override for ${R:Depends} while dh-r is looked at
+ .
+   * debian/control: Set Build-Depends: to current R version
+Checksums-Sha1:
+ 6de42b22bcd1cedcaf894f7fa5e6f68e40724a51 1002 nlme_3.1.137-1.1.dsc
+ 0b4b6ef4a288886e407d6f75835dbe7bf9619ee2 786769 nlme_3.1.137.orig.tar.gz
+ 848fc4849f13125ecd217fdfc71473243f0b7ba2 6968 nlme_3.1.137-1.1.debian.tar.xz
+ 403178eac8c31450c281d8dc0fa6d208443f3b78 8249 nlme_3.1.137-1.1_amd64.buildinfo
+ 4214ccefeb8502aecbb93d51e1888b7a35e454ee 70560 r-cran-nlme-dbgsym_3.1.137-1.1_amd64.deb
+ 20f45ceb69a1e7f18d2f16cb7b4272b87e298107 2222940 r-cran-nlme_3.1.137-1.1_amd64.deb
+Checksums-Sha256:
+ 0a60c45861efd60f9584fb5f3a827d024fa61cdce8fed9ac81b3287a412c723e 1002 nlme_3.1.137-1.1.dsc
+ 01049bb9c53826ff4ec5ba7117d766b17a0108c85f80871a5adb0c0b58ef7e87 786769 nlme_3.1.137.orig.tar.gz
+ bac383dfa33f2e57e2ed395dd6d2882eb41362fad403003c366d878e5c24285a 6968 nlme_3.1.137-1.1.debian.tar.xz
+ 258a961bb1710ad7be427c2e1e5fb3f47518ccf7b105713c412a9f50bea72783 8249 nlme_3.1.137-1.1_amd64.buildinfo
+ 413a3a41d6e47883ace7180fb96c3fdf94f2debdc070cd20f119cbb004161ba0 70560 r-cran-nlme-dbgsym_3.1.137-1.1_amd64.deb
+ abdb6226d7561c1d774948f50612133c8310693f1155953b4265a8e517ff1edb 2222940 r-cran-nlme_3.1.137-1.1_amd64.deb
+Files:
+ 75a5f2b6bf0b91a1b5a25a97156663e7 1002 gnu-r optional nlme_3.1.137-1.1.dsc
+ 1a9f73fd036e2406d430008ccf96048b 786769 gnu-r optional nlme_3.1.137.orig.tar.gz
+ aa51db7a1659e2ba5b14c0e618315eea 6968 gnu-r optional nlme_3.1.137-1.1.debian.tar.xz
+ 199943bb2f722dafdd6cdea7170fd25b 8249 gnu-r optional nlme_3.1.137-1.1_amd64.buildinfo
+ 80f3f07b032b065ec8dd84a5ccca632b 70560 debug optional r-cran-nlme-dbgsym_3.1.137-1.1_amd64.deb
+ 0f588a32c32980bb892aa9944347b470 2222940 gnu-r optional r-cran-nlme_3.1.137-1.1_amd64.deb
