@@ -1,3 +1,31 @@
+Package: littler
+Architecture: all
+Version: 0.3.3-1.1
+Priority: optional
+Section: gnu-r
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 19
+Depends: r-cran-littler
+Filename: ./littler_0.3.3-1.1_all.deb
+Size: 12664
+MD5sum: 698a2fea8a6f2ffd4be5a839bc9595c2
+SHA1: 1fbce4817c7251e964f1ad1645940c921ba4d21f
+SHA256: 60fba97a7fee9014a9d3ada738ea5fbd1cfedefb6b8db77877e778c5ec4f260b
+SHA512: d2d9d603574246e94dc7787726be446c889aca6c958ad5b487e32d8e5caf8e52332b78b1c2068ce2a940a61a6ed5439453c1b41a9197114f7bb25a223c26ecf3
+Homepage: https://cran.r-project.org/package=littler
+Description: GNU R scripting and command-line front-end -- transition package
+ The 'r' (aka 'littler') program provides a lightweight binary wrapper around
+ the GNU R language and environment for statistical computing and graphics.
+ .
+ While R can be used in batch mode, the r binary adds full support for
+ both 'shebang'-style scripting (i.e. using a  hashmark-exclamation-path
+ expression as the first line in scripts) as well as command-line use in
+ standard Unix pipelines. In other words, r provides the R language without
+ the environment.
+ .
+ This virtual package ensures that 'r-cran-littler' is installed. Once that
+ is done, this 'littler' package can be removed.
+
 Package: r-base-core-dbg
 Architecture: amd64
 Version: 3.5.0-1
@@ -505,6 +533,36 @@ Description: GNU R package for 'Trellis' graphics
  .
  This package is part of the set of packages that are 'recommended'
  by R Core and shipped with upstream source releases of R itself.
+
+Package: r-cran-littler
+Architecture: amd64
+Version: 0.3.3-1.1
+Priority: optional
+Section: gnu-r
+Source: littler
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 23
+Provides: littler
+Depends: r-base-core (>= 3.5.0-1), r-api-3.5
+Suggests: r-cran-getopt
+Conflicts: littler (<= 0.2.3-2)
+Replaces: littler
+Filename: ./r-cran-littler_0.3.3-1.1_amd64.deb
+Size: 13004
+MD5sum: 4ff9b19a16ed848af35c70f6f0ea716b
+SHA1: 149db8cd6be851499fcbc91909630e6be79ac5b5
+SHA256: 73902b88c6644664f734ecadcc3391a9db84b4c96d55a9c487c45d186dc9d502
+SHA512: fa7475d53927c754d388341b42e758965c1ada4ef927dd6bbffe409ae9b9ad2b19586e66f85dd81f5990ba6a3bf0a8edfb69cbad384efdbf7b54df9a31974ebc
+Homepage: https://cran.r-project.org/package=littler
+Description: GNU R scripting and command-line front-end
+ The 'r' (aka 'littler') program provides a lightweight binary wrapper around
+ the GNU R language and environment for statistical computing and graphics.
+ .
+ While R can be used in batch mode, the r binary adds full support for
+ both 'shebang'-style scripting (i.e. using a  hashmark-exclamation-path
+ expression as the first line in scripts) as well as command-line use in
+ standard Unix pipelines. In other words, r provides the R language without
+ the environment.
 
 Package: r-cran-mass-dbgsym
 Architecture: amd64

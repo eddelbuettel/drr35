@@ -1,0 +1,46 @@
+Format: 1.8
+Date: Sat, 28 Apr 2018 17:23:02 -0500
+Source: littler
+Binary: r-cran-littler littler
+Architecture: source all amd64
+Version: 0.3.3-1.1
+Distribution: unstable
+Urgency: medium
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Changed-By: Dirk Eddelbuettel <edd@debian.org>
+Description:
+ littler    - GNU R scripting and command-line front-end -- transition package
+ r-cran-littler - GNU R scripting and command-line front-end
+Changes:
+ littler (0.3.3-1.1) unstable; urgency=medium
+ .
+   * (Inofficial) Rebuild for R 3.5.0
+ .
+   * Manual override for ${R:Depends} while dh-r is looked at
+ .
+   * debian/control: Set Build-Depends: to current R version
+   * debian/control: Set Standards-Version: to current version
+   * debian/control: Add Vcs-Browser: and Vcs-Git:
+   * debian/control: Switch from cdbs to dh-r
+   * debian/rules: Idem
+Checksums-Sha1:
+ 4ca7e84cba9b43cfd778766cd8b7d1ffa3bd8110 1054 littler_0.3.3-1.1.dsc
+ 110964b023652e7525e2eb03ea8a4ff4581e9aa6 422170 littler_0.3.3.orig.tar.gz
+ 86bdfd77d00cd874638a4ad334aa323dc90f8880 4656 littler_0.3.3-1.1.debian.tar.xz
+ 1fbce4817c7251e964f1ad1645940c921ba4d21f 12664 littler_0.3.3-1.1_all.deb
+ 7466d5a7b9da9b445fe11a558367de310a0bf4db 8188 littler_0.3.3-1.1_amd64.buildinfo
+ 149db8cd6be851499fcbc91909630e6be79ac5b5 13004 r-cran-littler_0.3.3-1.1_amd64.deb
+Checksums-Sha256:
+ e88690d824e56ef7943ef7001abd48affcfd22400e78e9088389c67e2f51d110 1054 littler_0.3.3-1.1.dsc
+ a78324f259370a644ab4aa07891477726a6fa079e6219cd6488d7ee748b57ab1 422170 littler_0.3.3.orig.tar.gz
+ 5208689e72cb07c93219f948b445623693ad7e2ea4722c97e323a2b9a30f2957 4656 littler_0.3.3-1.1.debian.tar.xz
+ 60fba97a7fee9014a9d3ada738ea5fbd1cfedefb6b8db77877e778c5ec4f260b 12664 littler_0.3.3-1.1_all.deb
+ 4013c5e36542a70b5ac9076080207f8f43218774021cd35ec2b2f57199a532b5 8188 littler_0.3.3-1.1_amd64.buildinfo
+ 73902b88c6644664f734ecadcc3391a9db84b4c96d55a9c487c45d186dc9d502 13004 r-cran-littler_0.3.3-1.1_amd64.deb
+Files:
+ 3a4cb3debe00a10bd82a28dd40b8fc5a 1054 gnu-r optional littler_0.3.3-1.1.dsc
+ 1de58bd2d24d23c4f432e319e47e8d63 422170 gnu-r optional littler_0.3.3.orig.tar.gz
+ 11d947a6bc18cc0066963429ce340212 4656 gnu-r optional littler_0.3.3-1.1.debian.tar.xz
+ 698a2fea8a6f2ffd4be5a839bc9595c2 12664 gnu-r optional littler_0.3.3-1.1_all.deb
+ f803cea07e64b89947305ad7963817cc 8188 gnu-r optional littler_0.3.3-1.1_amd64.buildinfo
+ 4ff9b19a16ed848af35c70f6f0ea716b 13004 gnu-r optional r-cran-littler_0.3.3-1.1_amd64.deb
