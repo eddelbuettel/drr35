@@ -2,22 +2,25 @@ Format: 1.0
 Source: littler
 Binary: r-cran-littler littler
 Architecture: all amd64 source
-Version: 0.3.3-1.1
+Version: 0.3.3-1.2
 Checksums-Md5:
- 3a4cb3debe00a10bd82a28dd40b8fc5a 1054 littler_0.3.3-1.1.dsc
- 698a2fea8a6f2ffd4be5a839bc9595c2 12664 littler_0.3.3-1.1_all.deb
- 4ff9b19a16ed848af35c70f6f0ea716b 13004 r-cran-littler_0.3.3-1.1_amd64.deb
+ fe2c9617cfe8c244e09ed196c6a027bb 1054 littler_0.3.3-1.2.dsc
+ 1e27cf4b39b89c1f43d381478a288187 12692 littler_0.3.3-1.2_all.deb
+ 116ad2747832b7ff1f6c5674f3f236f1 15884 r-cran-littler-dbgsym_0.3.3-1.2_amd64.deb
+ 088d3c3472c632cfde06661b815ce9e5 340176 r-cran-littler_0.3.3-1.2_amd64.deb
 Checksums-Sha1:
- 4ca7e84cba9b43cfd778766cd8b7d1ffa3bd8110 1054 littler_0.3.3-1.1.dsc
- 1fbce4817c7251e964f1ad1645940c921ba4d21f 12664 littler_0.3.3-1.1_all.deb
- 149db8cd6be851499fcbc91909630e6be79ac5b5 13004 r-cran-littler_0.3.3-1.1_amd64.deb
+ de5191ca39ed91c813cdb8b9c898092ca167e510 1054 littler_0.3.3-1.2.dsc
+ e5feb8f7985150598df3aa9c238f92cae2bdb445 12692 littler_0.3.3-1.2_all.deb
+ 3a414bffd8fb6dc39d1877de6752f42b5ad2928a 15884 r-cran-littler-dbgsym_0.3.3-1.2_amd64.deb
+ 729ec5cd3b344e3a9912f0d2e2fa589f9d243b96 340176 r-cran-littler_0.3.3-1.2_amd64.deb
 Checksums-Sha256:
- e88690d824e56ef7943ef7001abd48affcfd22400e78e9088389c67e2f51d110 1054 littler_0.3.3-1.1.dsc
- 60fba97a7fee9014a9d3ada738ea5fbd1cfedefb6b8db77877e778c5ec4f260b 12664 littler_0.3.3-1.1_all.deb
- 73902b88c6644664f734ecadcc3391a9db84b4c96d55a9c487c45d186dc9d502 13004 r-cran-littler_0.3.3-1.1_amd64.deb
+ f50734087d4cbb6185a051c354f45885f81e4d42854bf3b1c410fa020c666abd 1054 littler_0.3.3-1.2.dsc
+ c2debfd75a1e87e88b3818ae4a4af65a53d1cb91057eaeb9b256270f4b6ed724 12692 littler_0.3.3-1.2_all.deb
+ 863951228fb7755fe26ab68792c813d8e3d0137d6325eea5bd9ac39bfc6cff34 15884 r-cran-littler-dbgsym_0.3.3-1.2_amd64.deb
+ 337a93fe34a007194d997f6d1ea4eaa63f6a089863a884e2b07a3638beb2ed0b 340176 r-cran-littler_0.3.3-1.2_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Sat, 28 Apr 2018 22:24:37 +0000
+Build-Date: Sun, 29 Apr 2018 14:12:17 +0000
 Build-Path: /build/littler-0.3.3
 Installed-Build-Depends:
  autoconf (= 2.69-11),
@@ -35,6 +38,7 @@ Installed-Build-Depends:
  build-essential (= 12.4),
  bzip2 (= 1.0.6-8.1),
  ca-certificates (= 20180409),
+ cdbs (= 0.4.156),
  coreutils (= 8.28-1),
  cpp (= 4:7.3.0-3),
  cpp-4.9 (= 4.9.4-2),

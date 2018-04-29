@@ -1,17 +1,17 @@
 Package: littler
 Architecture: all
-Version: 0.3.3-1.1
+Version: 0.3.3-1.2
 Priority: optional
 Section: gnu-r
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
-Installed-Size: 19
+Installed-Size: 20
 Depends: r-cran-littler
-Filename: ./littler_0.3.3-1.1_all.deb
-Size: 12664
-MD5sum: 698a2fea8a6f2ffd4be5a839bc9595c2
-SHA1: 1fbce4817c7251e964f1ad1645940c921ba4d21f
-SHA256: 60fba97a7fee9014a9d3ada738ea5fbd1cfedefb6b8db77877e778c5ec4f260b
-SHA512: d2d9d603574246e94dc7787726be446c889aca6c958ad5b487e32d8e5caf8e52332b78b1c2068ce2a940a61a6ed5439453c1b41a9197114f7bb25a223c26ecf3
+Filename: ./littler_0.3.3-1.2_all.deb
+Size: 12692
+MD5sum: 1e27cf4b39b89c1f43d381478a288187
+SHA1: e5feb8f7985150598df3aa9c238f92cae2bdb445
+SHA256: c2debfd75a1e87e88b3818ae4a4af65a53d1cb91057eaeb9b256270f4b6ed724
+SHA512: bafcad90855ef64aaca70f26a8492446def3726d6e0bf8fb4abebfc36cbd45de68012e8eb0628c7b61a1819dcc790704cd14dea38f8ec36466b37eaf0f096bf8
 Homepage: https://cran.r-project.org/package=littler
 Description: GNU R scripting and command-line front-end -- transition package
  The 'r' (aka 'littler') program provides a lightweight binary wrapper around
@@ -534,25 +534,44 @@ Description: GNU R package for 'Trellis' graphics
  This package is part of the set of packages that are 'recommended'
  by R Core and shipped with upstream source releases of R itself.
 
+Package: r-cran-littler-dbgsym
+Architecture: amd64
+Version: 0.3.3-1.2
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: littler
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 32
+Depends: r-cran-littler (= 0.3.3-1.2)
+Filename: ./r-cran-littler-dbgsym_0.3.3-1.2_amd64.deb
+Size: 15884
+MD5sum: 116ad2747832b7ff1f6c5674f3f236f1
+SHA1: 3a414bffd8fb6dc39d1877de6752f42b5ad2928a
+SHA256: 863951228fb7755fe26ab68792c813d8e3d0137d6325eea5bd9ac39bfc6cff34
+SHA512: 8423e415a879d7350b181c361448c15135f750c5fffd79b001bd8750b5b3794df3332a142f3c0964810206299ca7f4b9797b246b42a60ae6d1d6749e1a2105b5
+Description: debug symbols for r-cran-littler
+Build-Ids: d75394f93208c2906c0da22fa96f0a945e9cdae4
+
 Package: r-cran-littler
 Architecture: amd64
-Version: 0.3.3-1.1
+Version: 0.3.3-1.2
 Priority: optional
 Section: gnu-r
 Source: littler
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
-Installed-Size: 23
+Installed-Size: 1355
 Provides: littler
-Depends: r-base-core (>= 3.5.0-1), r-api-3.5
+Depends: r-base-core (>= 3.5.0-1), r-api-3.5, libblas3 | libblas.so.3, libbz2-1.0, libc6 (>= 2.14), libgomp1 (>= 4.2.1), libicu57 (>= 57.1-1~), liblapack3 | liblapack.so.3, liblzma5 (>= 5.1.1alpha+20110809), libpcre3, zlib1g (>= 1:1.1.4)
 Suggests: r-cran-getopt
 Conflicts: littler (<= 0.2.3-2)
 Replaces: littler
-Filename: ./r-cran-littler_0.3.3-1.1_amd64.deb
-Size: 13004
-MD5sum: 4ff9b19a16ed848af35c70f6f0ea716b
-SHA1: 149db8cd6be851499fcbc91909630e6be79ac5b5
-SHA256: 73902b88c6644664f734ecadcc3391a9db84b4c96d55a9c487c45d186dc9d502
-SHA512: fa7475d53927c754d388341b42e758965c1ada4ef927dd6bbffe409ae9b9ad2b19586e66f85dd81f5990ba6a3bf0a8edfb69cbad384efdbf7b54df9a31974ebc
+Filename: ./r-cran-littler_0.3.3-1.2_amd64.deb
+Size: 340176
+MD5sum: 088d3c3472c632cfde06661b815ce9e5
+SHA1: 729ec5cd3b344e3a9912f0d2e2fa589f9d243b96
+SHA256: 337a93fe34a007194d997f6d1ea4eaa63f6a089863a884e2b07a3638beb2ed0b
+SHA512: 7b701314c86ebed3997f521ad76192a8ac56a916045065febfbd8dc89187b2ab3dd0a626c0e52c752b525474857ffe0b6946e982596a4d5272452fef99cd6846
 Homepage: https://cran.r-project.org/package=littler
 Description: GNU R scripting and command-line front-end
  The 'r' (aka 'littler') program provides a lightweight binary wrapper around

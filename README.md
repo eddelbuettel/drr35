@@ -1,5 +1,5 @@
 
-## (Temporary) Debian repository for R packages build with R 3.5.0
+## (Temporary) Debian repository for R packages built with R 3.5.0
 
 ### Why?
 
