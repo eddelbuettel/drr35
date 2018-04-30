@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Sat, 28 Apr 2018 14:54:11 -0500
+Source: survival
+Binary: r-cran-survival
+Architecture: source amd64
+Version: 2.42-3-1.1
+Distribution: unstable
+Urgency: medium
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Changed-By: Dirk Eddelbuettel <edd@debian.org>
+Description:
+ r-cran-survival - GNU R package for survival analysis
+Changes:
+ survival (2.42-3-1.1) unstable; urgency=medium
+ .
+   * (Inofficial) Rebuild for R 3.5.0
+ .
+   * Manual override for ${R:Depends} while dh-r is looked at
+ .
+   * debian/control: Set Build-Depends: to current R version
+Checksums-Sha1:
+ 7984f95b2ba58728a4cd8c0f3660eb8306d7fe36 1030 survival_2.42-3-1.1.dsc
+ c637db595e014d23c39b6cbd821dd831ca3599d4 4108199 survival_2.42-3.orig.tar.gz
+ b634840dd5ba8bf04fd3775cb4255cb932e025a4 5832 survival_2.42-3-1.1.debian.tar.xz
+ f4097b4075ada7eae82cf672468dc205300fb1e1 97368 r-cran-survival-dbgsym_2.42-3-1.1_amd64.deb
+ 26a91f4c25e896c90089212731235bdff3e735c5 4333476 r-cran-survival_2.42-3-1.1_amd64.deb
+ 24a0b65a2f9c97c12276708822d4196a1fe1a2d6 8317 survival_2.42-3-1.1_amd64.buildinfo
+Checksums-Sha256:
+ b6fe6cca1d4044d590f38db2a051ab08edbaaadac974ace69f5af3bf688fb4e6 1030 survival_2.42-3-1.1.dsc
+ a07732d7717f7a01543d95cf60cdc7cb5f46544cb7297ddd2a59bcfaddd2ea96 4108199 survival_2.42-3.orig.tar.gz
+ ea7204c4cf9fd589524d0c7f8f5058545276f65bf40316034358ef12a6b32965 5832 survival_2.42-3-1.1.debian.tar.xz
+ 1223eddc1ce3a7ecff3195b6e5a8e6481dc4ce0bb7f4da13417575f26252e37b 97368 r-cran-survival-dbgsym_2.42-3-1.1_amd64.deb
+ 97130dd3e0c80b0e480a50089674656a175cb933cc9380755ff2e31ca80aeb84 4333476 r-cran-survival_2.42-3-1.1_amd64.deb
+ cac873529a0d437dfc37f153f17154cc59f12bee23e150c996e1d8c08ee45842 8317 survival_2.42-3-1.1_amd64.buildinfo
+Files:
+ a5ecef3ff1d56658b29e49d472bf6430 1030 gnu-r optional survival_2.42-3-1.1.dsc
+ df6795dd56c48f308ef643f009a02107 4108199 gnu-r optional survival_2.42-3.orig.tar.gz
+ 0c7db4ed7aecbed0d4f1444f25d4b36e 5832 gnu-r optional survival_2.42-3-1.1.debian.tar.xz
+ 52c2f2d5a47fdc14beaefdea5f8e8726 97368 debug optional r-cran-survival-dbgsym_2.42-3-1.1_amd64.deb
+ 440a6040a962cde045f5c37a25bb5a94 4333476 gnu-r optional r-cran-survival_2.42-3-1.1_amd64.deb
+ c95271340bf6f2db1608b2d1ce1ac4b5 8317 gnu-r optional survival_2.42-3-1.1_amd64.buildinfo

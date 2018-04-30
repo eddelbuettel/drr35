@@ -885,6 +885,51 @@ Description: GNU R package for spatial statistics
  B.D. Ripley. The following URL provides more details about the book:
  URL: http://www.stats.ox.ac.uk/pub/MASS4
 
+Package: r-cran-survival-dbgsym
+Architecture: amd64
+Version: 2.42-3-1.1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: survival
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 114
+Depends: r-cran-survival (= 2.42-3-1.1)
+Filename: ./r-cran-survival-dbgsym_2.42-3-1.1_amd64.deb
+Size: 97368
+MD5sum: 52c2f2d5a47fdc14beaefdea5f8e8726
+SHA1: f4097b4075ada7eae82cf672468dc205300fb1e1
+SHA256: 1223eddc1ce3a7ecff3195b6e5a8e6481dc4ce0bb7f4da13417575f26252e37b
+SHA512: 4811c9d60672b61e99f4b75f01987584b25caa88de98d89e47a1921430a33fc9a9b2876155952dbb7ccbe6d04a4ae081bc6b41a8c6c8177a5a55d9d7d45a85d0
+Description: debug symbols for r-cran-survival
+Build-Ids: 0943937fdec231a2e7d82426587f272b1e3cc51f
+
+Package: r-cran-survival
+Architecture: amd64
+Version: 2.42-3-1.1
+Priority: optional
+Section: gnu-r
+Source: survival
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 5065
+Depends: r-base-core (>= 3.5.0-1), r-api-3.5, libc6 (>= 2.4), r-cran-matrix
+Replaces: r-recommended (<< 1.9.0)
+Filename: ./r-cran-survival_2.42-3-1.1_amd64.deb
+Size: 4333476
+MD5sum: 440a6040a962cde045f5c37a25bb5a94
+SHA1: 26a91f4c25e896c90089212731235bdff3e735c5
+SHA256: 97130dd3e0c80b0e480a50089674656a175cb933cc9380755ff2e31ca80aeb84
+SHA512: 533b6e7f92a04877597b63d5aaf9465b00625b5b9eb8227477484131f1216f24a775b1c1d004acc41ffcd4e27ac57e4d624b1d6f7eb706b7dad9fc8bfffed5f2
+Homepage: https://cran.r-project.org/package=survival
+Description: GNU R package for survival analysis
+ This package provides functions and datasets for survival analysis:
+ descriptive statistics, two-sample tests, parametric accelerated failure
+ models, Cox model. Delayed entry (truncation) is allowed for all models;
+ interval censoring for parametric models.
+ .
+ This package is part of the set of packages that are 'recommended'
+ by R Core and shipped with upstream source releases of R itself.
+
 Package: r-doc-html
 Architecture: all
 Version: 3.5.0-1
