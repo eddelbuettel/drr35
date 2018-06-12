@@ -1,5 +1,13 @@
 
-## (Temporary) Debian repository for R packages built with R 3.5.0
+This is now **obsolete** as R 3.5.0 is in Debian proper. 
+
+Please [read this blog post](http://dirk.eddelbuettel.com/blog/2018/06/11#r_3_5_0_deb_update) for details.
+Original content follows below.
+
+
+
+
+## [OBSOLETE] (Temporary) Debian repository for R packages built with R 3.5.0
 
 ### Why?
 
